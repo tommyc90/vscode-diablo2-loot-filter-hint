@@ -1,0 +1,34 @@
+{
+    "name": "pod-filter-hint",
+    "displayName": "POD Item Filter Hints",
+    "description": "A Path of Diablo Item Filter langauge and hints extension by tmcerny",
+    "publisher": "tmcerny",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "poditemfilter",
+                "aliases": [
+                    "filter"
+                ],
+                "extensions": [
+                    ".filter"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "poditemfilter",
+                "scopeName": "source.poditemfilter",
+                "path": "./syntaxes/poditemfilter.tmGrammar.json"
+            }
+        ]
+    }
+}
