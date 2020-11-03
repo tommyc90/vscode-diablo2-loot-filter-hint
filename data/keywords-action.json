@@ -1,0 +1,83 @@
+{
+    "data": [
+        {
+            "id": "GREEN",
+            "name": "Green color"
+        },
+        {
+            "id": "DGREEN",
+            "name": "Dark Green color"
+        },
+        {
+            "id": "GOLD",
+            "name": "Gold color"
+        },
+        {
+            "id": "TAN",
+            "name": "Tan color"
+        },
+        {
+            "id": "BLUE",
+            "name": "Blue color"
+        },
+        {
+            "id": "GRAY",
+            "name": "Gray color"
+        },
+        {
+            "id": "WHITE",
+            "name": "White color"
+        },
+        {
+            "id": "BLACK",
+            "name": "Black color"
+        },
+        {
+            "id": "YELLOW",
+            "name": "Yellow color"
+        },
+        {
+            "id": "ORANGE",
+            "name": "Orange color"
+        },
+        {
+            "id": "PURPLE",
+            "name": "Purple color"
+        },
+        {
+            "id": "RED",
+            "name": "RED color"
+        },
+
+
+
+        {
+            "id": "CODE",
+            "name": "Item code"
+        },
+        {
+            "id": "ILVL",
+            "name": "Item level"
+        },
+        {
+            "id": "NAME",
+            "name": "Item name (including previous changes)"
+        },
+        {
+            "id": "RUNENAME",
+            "name": "Same as %NAME% but runes"
+        },
+        {
+            "id": "SOCKETS",
+            "name": "Number of sockets of the item"
+        },
+        {
+            "id": "PRICE",
+            "name": "Selling price of the item"
+        },
+        {
+            "id": "CONTINUE",
+            "name": "Continue processing loot filter even after condition match"
+        }
+    ]
+}

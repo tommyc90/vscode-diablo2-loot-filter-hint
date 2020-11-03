@@ -1,0 +1,180 @@
+{
+    "data": [
+        {
+            "id": "NORM",
+            "name": "Normal tier items"
+        },
+        {
+            "id": "EXC",
+            "name": "Exceptional tier items"
+        },
+        {
+            "id": "ELT",
+            "name": "Elite tier items"
+        },
+
+
+
+        {
+            "id": "INF",
+            "name": "Inferior items"
+        },
+        {
+            "id": "SUP",
+            "name": "Superior items"
+        },
+        {
+            "id": "MAG",
+            "name": "Magic items"
+        },
+        {
+            "id": "RARE",
+            "name": "Rare items"
+        },
+        {
+            "id": "SET",
+            "name": "Set items"
+        },
+        {
+            "id": "UNI",
+            "name": "Unique items"
+        },
+        {
+            "id": "NMAG",
+            "name": "Non-magical items (white/gray)"
+        },
+        {
+            "id": "ETH",
+            "name": "Ethereal items"
+        },
+        {
+            "id": "RW",
+            "name": "Runeword items"
+        },
+
+
+
+        {
+            "id": "CL1",
+            "name": "Druid pelts"
+        },
+        {
+            "id": "CL2",
+            "name": "Barbarian helmets"
+        },
+        {
+            "id": "CL3",
+            "name": "Paladin shields"
+        },
+        {
+            "id": "CL4",
+            "name": "Necromancer shields"
+        },
+        {
+            "id": "CL5",
+            "name": "Assassin weapons"
+        },
+        {
+            "id": "CL6",
+            "name": "Sorceress weapons"
+        },
+        {
+            "id": "CL7",
+            "name": "Amazon weapons"
+        },
+
+
+
+        {
+            "id": "WEAPON",
+            "name": "All weapons"
+        },
+        {
+            "id": "WP1",
+            "name": "Axes"
+        },
+        {
+            "id": "WP2",
+            "name": "Maces"
+        },
+        {
+            "id": "WP3",
+            "name": "Swords"
+        },
+        {
+            "id": "WP4",
+            "name": "Daggers"
+        },
+        {
+            "id": "WP5",
+            "name": "Throwing weapons"
+        },
+        {
+            "id": "WP6",
+            "name": "Javelins"
+        },
+        {
+            "id": "WP7",
+            "name": "Spears"
+        },
+        {
+            "id": "WP8",
+            "name": "Polearms"
+        },
+        {
+            "id": "WP9",
+            "name": "Bows"
+        },
+        {
+            "id": "WP10",
+            "name": "Crossbows"
+        },
+        {
+            "id": "WP11",
+            "name": "Staves"
+        },
+        {
+            "id": "WP12",
+            "name": "Wands"
+        },
+        {
+            "id": "WP13",
+            "name": "Scepters"
+        },
+
+
+
+        {
+            "id": "ARMOR",
+            "name": "All armors"
+        },
+        {
+            "id": "EQ1",
+            "name": "Helmets"
+        },
+        {
+            "id": "EQ2",
+            "name": "Body armors"
+        },
+        {
+            "id": "EQ3",
+            "name": "Shields"
+        },
+        {
+            "id": "EQ4",
+            "name": "Gloves"
+        },
+        {
+            "id": "EQ5",
+            "name": "Boots"
+        },
+        {
+            "id": "EQ6",
+            "name": "Belts"
+        },
+        {
+            "id": "EQ7",
+            "name": "Circlets"
+        }
+    ]
+}

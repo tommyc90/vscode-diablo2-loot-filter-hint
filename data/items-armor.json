@@ -1,0 +1,47 @@
+{
+    "id": "ARMOR",
+    "data": [
+        {
+            "id": "EQ1",
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "cap",
+                            "name": "Cap"
+                        },
+                        {
+                            "id": "xap",
+                            "name": "War Cap"
+                        },
+                        {
+                            "id": "uap",
+                            "name": "Shako"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "EQ2",
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "qui",
+                            "name": "Quilted Armor"
+                        },
+                        {
+                            "id": "xui",
+                            "name": "Ghost Armor"
+                        },
+                        {
+                            "id": "uui",
+                            "name": "Dusk Shroud"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

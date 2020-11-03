@@ -1,19 +1,32 @@
 {
     "name": "pod-filter-hint",
-    "displayName": "POD Item Filter Hints",
-    "description": "A Path of Diablo Item Filter langauge and hints extension by tmcerny",
-    "publisher": "tmcerny",
+    "displayName": "POD Loot Filter Hints",
+    "description": "A Path of Diablo Loot Filter langauge and hints extension by tmcerny",
     "version": "1.0.0",
+    "license": "GPL-3.0",
+    "publisher": "tmcerny",
+    "author": "tmcerny",
+    "main": "./extension/main",
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+	"scripts": {},
+	"extensionDependencies": [],
+	"dependencies": {},
+	"devDependencies": {
+		"vscode": "^1.1.37"
+	},
     "engines": {
         "vscode": "^1.50.0"
     },
-    "categories": [
-        "Programming Languages"
-    ],
+    "activationEvents": [
+		"onLanguage:podlootfilter"
+	],
     "contributes": {
         "languages": [
             {
-                "id": "poditemfilter",
+                "id": "podlootfilter",
                 "aliases": [
                     "filter"
                 ],
@@ -25,10 +38,20 @@
         ],
         "grammars": [
             {
-                "language": "poditemfilter",
-                "scopeName": "source.poditemfilter",
-                "path": "./syntaxes/poditemfilter.tmGrammar.json"
+                "language": "podlootfilter",
+                "scopeName": "source.podlootfilter",
+                "path": "./syntaxes/podlootfilter.tmGrammar.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "podlootfilter",
+                "path": "./data/snippets.json"
             }
         ]
-    }
+    },
+    "repository": {
+		"type": "git",
+		"url": "https://bitbucket.org/tmcerny/vscode-pod-filter-hint"
+	}
 }

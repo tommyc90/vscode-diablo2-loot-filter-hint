@@ -7,7 +7,6 @@
     },
     // symbols used as brackets
     "brackets": [
-        ["%", "%"],
         ["[", "]"],
         ["(", ")"]
     ],
@@ -20,5 +19,12 @@
     // symbols that that can be used to surround a selection
     "surroundingPairs": [
         ["%", "%"]
-    ]
+    ],
+    // folding markers for //#region and //#endregion
+    "folding": {
+        "markers": {
+            "start": "^\\s*//\\s*#?region\\b",
+            "end": "^\\s*//\\s*#?endregion\\b"
+        }
+    }
 }

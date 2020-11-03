@@ -1,0 +1,28 @@
+{
+    "id": "WEAPON",
+    "name": "All weapons",
+    "data": [
+        {
+            "id": "WP1",
+            "name": "Axes",
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "hax",
+                            "name": "Hand Axe"
+                        },
+                        {
+                            "id": "9ha",
+                            "name": "Hatchet"
+                        },
+                        {
+                            "id": "7ha",
+                            "name": "Tomahawk"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

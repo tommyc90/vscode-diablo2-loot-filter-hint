@@ -1,0 +1,6 @@
+{
+    "ItemDisplay": {
+      "prefix": "item",
+      "body": "ItemDisplay[$0]: "
+    }
+}
