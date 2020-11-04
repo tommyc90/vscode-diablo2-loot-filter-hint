@@ -1,3 +1,6 @@
-# POD Loot Filter language and hints README
+# Diablo 2 LoD loot filter language and hints README
 
-This is a visual studio code extension that provides markup and basic hints for the Path of Diablo .filter language.
+This is a visual studio code extension that provides markup and basic hints for the Diablo 2 LoD BH Maphack based `.filter` language.
+
+Currentlly supports these derivations:
+* Path of Diablo
