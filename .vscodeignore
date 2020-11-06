@@ -1,0 +1,27 @@
+# ignore archive files
+*.tar
+*.tgz
+*.7z
+*.zip
+*.vsix
+
+# unit test files
+test/**
+
+# vscode workspace configurations
+.vscode/**
+
+# type dependencies
+node_modules/@types/**
+
+# eslint
+.eslintrc.json
+
+*.d.ts
+
+# screenshot image (because link of screenshot in README is under github)
+images/screenshots.gif
+
+# vscode typing files
+vscode.d.ts
+vscode.proposed.d.ts
