@@ -33,7 +33,8 @@ const RELATED_ITEMS_LIMIT = 5;
 let completionItems = [],
     completionConditionKeywords = [],
     completionActionKeywords = [],
-    hoverItems = [],
+    conditionHoverItems = [],
+    actionHoverItems = [],
     keywordNames = [];
     
 /**
@@ -70,7 +71,13 @@ function processKeywords(keywords, keywordsType) {
             }
             if (keyword.name !== undefined) {
                 keywordNames[keyword.id] = keyword.name;
-                hoverItems[keyword.id] = new vscode.Hover(keyword.name);
+                const hoverItem = new vscode.Hover(keyword.name);
+                if (keywordsType === KEYWORDS_CONDITION) {
+                    conditionHoverItems[keyword.id] = hoverItem;
+                } else {
+                    actionHoverItems[keyword.id] = hoverItem;
+                }
+                
             }
         }
         // recursive call with updated context
@@ -97,7 +104,7 @@ function processItems(items, parentItem, context) {
         if (item.id !== undefined && item.data === undefined) {
             let mdDescription = getItemMdDescription(item, itemTier++, parentItem, context);
             addCompletionItem(item, mdDescription, context);
-            hoverItems[item.id] = new vscode.Hover(mdDescription);
+            conditionHoverItems[item.id] = new vscode.Hover(mdDescription);
         }
         // recursive call with updated context
         if (item.data !== undefined) {
@@ -152,7 +159,7 @@ function getItemMdDescription(item, itemTier, parentItem, context) {
         });
     }
     if (relatedContent.length > 0) {
-        hoverContent += "* `Variants` - " + relatedContent.join(", ");
+        hoverContent += "* `Related` - " + relatedContent.join(", ");
     }
 
     return new vscode.MarkdownString(hoverContent);
@@ -175,8 +182,15 @@ function isItemTiered(context) {
 /**
  * @param {string} id
  */
-function getHoverItem(id) {
-    return id in hoverItems ? hoverItems[id] : null;
+function getConditionHoverItem(id) {
+    return id in conditionHoverItems ? conditionHoverItems[id] : null;
+}
+
+/**
+ * @param {string} id
+ */
+function getActionHoverItem(id) {
+    return id in actionHoverItems ? actionHoverItems[id] : null;
 }
 
 module.exports = {
@@ -186,5 +200,6 @@ module.exports = {
     getCompletionConditionKeywords : () => completionConditionKeywords,
     getCompletionActionKeywords : () => completionActionKeywords,
     
-    getHoverItem
+    getConditionHoverItem,
+    getActionHoverItem
 };

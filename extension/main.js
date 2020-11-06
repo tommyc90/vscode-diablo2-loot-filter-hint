@@ -93,13 +93,23 @@ function activate(context) {
             if (!char.match(/\w/)) {
                 return null;
             }
-            const textBoferCursor = getTextBeforeCursor(document, position);
-            if (hasTextComment(textBoferCursor)) {
+            const textBeforeCursor = getTextBeforeCursor(document, position);
+            if (hasTextComment(textBeforeCursor)) {
                 return null;
             }
+
             const wordRange = document.getWordRangeAtPosition(position);
             const word = document.getText(wordRange);
-            const hover = hintDataManager.getHoverItem(word);
+
+            let hover = null;
+            if (isTextInCondition(textBeforeCursor)) {
+                hover = hintDataManager.getConditionHoverItem(word);
+            }
+
+            if (isTextInAction(textBeforeCursor)) {
+                hover = hintDataManager.getActionHoverItem(word);
+            }
+
             // return clone to avoid positioning bug
             return hover ? {...hover} : null;
         }
