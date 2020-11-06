@@ -537,18 +537,6 @@
             ]
         },
         {
-            "id": "gld",
-            "name": "gold"
-        },
-        {
-            "id": "key",
-            "name": "Skeleton Key"
-        },
-        {
-            "id": "ear",
-            "name": "Ear"
-        },
-        {
             "data": [
                 {
                     "id": "tes",
@@ -603,6 +591,22 @@
                     "name": "Mephisto's Brain"
                 }
             ]
+        },
+        {
+            "id": "gld",
+            "name": "gold"
+        },
+        {
+            "id": "key",
+            "name": "Key"
+        },
+        {
+            "id": "ear",
+            "name": "Player Ear"
+        },
+        {
+            "id": "std",
+            "name": "Standard of Heroes"
         }
     ]
 }

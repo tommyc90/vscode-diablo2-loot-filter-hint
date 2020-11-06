@@ -21,12 +21,20 @@
         "vscode": "^1.50.0"
     },
     "activationEvents": [
-		"onLanguage:podlootfilter"
+		"onLanguage:podlootfilter",
+		"onLanguage:pd2lootfilter"
 	],
     "contributes": {
         "languages": [
             {
                 "id": "podlootfilter",
+                "extensions": [
+                    ".filter"
+                ],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "pd2lootfilter",
                 "extensions": [
                     ".filter"
                 ],
@@ -38,17 +46,26 @@
                 "language": "podlootfilter",
                 "scopeName": "source.podlootfilter",
                 "path": "./syntaxes/podlootfilter.tmGrammar.json"
+            },
+            {
+                "language": "pd2lootfilter",
+                "scopeName": "source.pd2lootfilter",
+                "path": "./syntaxes/pd2lootfilter.tmGrammar.json"
             }
         ],
         "snippets": [
             {
                 "language": "podlootfilter",
                 "path": "./data/snippets.json"
+            },
+            {
+                "language": "pd2lootfilter",
+                "path": "./data/snippets.json"
             }
         ]
     },
     "repository": {
 		"type": "git",
-		"url": "https://github.com/tmcerny/vscode-diablo2-loot-filter-hint"
+		"url": "https://github.com/tommyc90/vscode-diablo2-loot-filter-hint"
 	}
 }

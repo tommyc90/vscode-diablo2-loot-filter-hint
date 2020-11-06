@@ -1,19 +1,39 @@
 const vscode = require('vscode');
 const fs = require('fs');
 
+const FILTER_TYPE_POD = 'podlootfilter';
+const FILTER_TYPE_PD2 = 'pd2lootfilter';
+
 const ITEMS_DATA_FILES = [
     `${__dirname}/../data/items-armor.json`,
     `${__dirname}/../data/items-weapon.json`,
-    `${__dirname}/../data/items-misc.json`,
+    `${__dirname}/../data/items-misc.json`
+];
+const ITEMS_POD_DATA_FILES = [
     `${__dirname}/../data/items-pod.json`
+];
+const ITEMS_PD2_DATA_FILES = [
+    `${__dirname}/../data/items-pd2.json`
 ];
 
 const KEYWORDS_CONDITION_DATA_FILES = [
     `${__dirname}/../data/keywords-condition.json`
 ];
+const KEYWORDS_CONDITION_POD_DATA_FILES = [
+    `${__dirname}/../data/keywords-condition-pod.json`
+];
+const KEYWORDS_CONDITION_PD2_DATA_FILES = [
+    `${__dirname}/../data/keywords-condition-pd2.json`
+];
 
 const KEYWORDS_ACTION_DATA_FILES = [
     `${__dirname}/../data/keywords-action.json`
+];
+const KEYWORDS_ACTION_POD_DATA_FILES = [
+    `${__dirname}/../data/keywords-action-pod.json`
+];
+const KEYWORDS_ACTION_PD2_DATA_FILES = [
+    `${__dirname}/../data/keywords-action-pd2.json`
 ];
 
 const KEYWORDS_CONDITION = 1;
@@ -30,23 +50,54 @@ const ITEM_TIERS = {
 
 const RELATED_ITEMS_LIMIT = 5;
 
+let currentFilterType = null;
+
 let completionItems = [],
     completionConditionKeywords = [],
     completionActionKeywords = [],
     conditionHoverItems = [],
     actionHoverItems = [],
     keywordNames = [];
-    
+
 /**
  * Initialize all completion and hover data
  */
-function init() {
-    let keywordsCondition = [].concat.apply([], KEYWORDS_CONDITION_DATA_FILES.map(file => require(file)));
+function init(filterType) {
+    // data already initialized for this filter type
+    if (currentFilterType == filterType) {
+        return;
+    }
+
+    // reset data
+    completionItems = [];
+    completionConditionKeywords = [];
+    completionActionKeywords = [];
+    conditionHoverItems = [];
+    actionHoverItems = [];
+    keywordNames = [];
+
+    let keywordsConditionDataFiles = KEYWORDS_CONDITION_DATA_FILES,
+        keywordsActionDataFiles = KEYWORDS_ACTION_DATA_FILES,
+        itemsDataFiles = ITEMS_DATA_FILES;
+
+    if (filterType == FILTER_TYPE_POD) {
+        keywordsConditionDataFiles = [].concat(keywordsConditionDataFiles, KEYWORDS_CONDITION_POD_DATA_FILES);
+        keywordsActionDataFiles = [].concat(keywordsActionDataFiles, KEYWORDS_ACTION_POD_DATA_FILES);
+        itemsDataFiles = [].concat(itemsDataFiles, ITEMS_POD_DATA_FILES);
+    } else if (filterType == FILTER_TYPE_PD2) {
+        keywordsConditionDataFiles = [].concat(keywordsConditionDataFiles, KEYWORDS_CONDITION_PD2_DATA_FILES);
+        keywordsActionDataFiles = [].concat(keywordsActionDataFiles, KEYWORDS_ACTION_PD2_DATA_FILES);
+        itemsDataFiles = [].concat(itemsDataFiles, ITEMS_PD2_DATA_FILES);
+    }
+
+    let keywordsCondition = [].concat.apply([], keywordsConditionDataFiles.map(file => require(file)));
     processKeywords(keywordsCondition, KEYWORDS_CONDITION);
-    let keywordsAction = [].concat.apply([], KEYWORDS_ACTION_DATA_FILES.map(file => require(file)));
+    let keywordsAction = [].concat.apply([], keywordsActionDataFiles.map(file => require(file)));
     processKeywords(keywordsAction, KEYWORDS_ACTION);
-    let items = [].concat.apply([], ITEMS_DATA_FILES.map(file => require(file)));
+    let items = [].concat.apply([], itemsDataFiles.map(file => require(file)));
     processItems(items, null, []);
+
+    currentFilterType = filterType;
 }
 
 //#region Keywords processing
@@ -194,6 +245,9 @@ function getActionHoverItem(id) {
 }
 
 module.exports = {
+    FILTER_TYPE_POD,
+    FILTER_TYPE_PD2,
+
     init,
     
     getCompletionItems : () => completionItems,

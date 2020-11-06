@@ -1,7 +1,7 @@
 const vscode = require('vscode');
 const hintDataManager = require('./hintDataManager');
 
-let DOCUMENT_SELECTOR = 'podlootfilter';
+const DOCUMENT_SELECTOR = [hintDataManager.FILTER_TYPE_POD, hintDataManager.FILTER_TYPE_PD2];
 
 /**
  * @param {any} document
@@ -53,14 +53,12 @@ function isTextInAction(text = '') {
  * @returns {boolean}
  */
 function isTextPossibleKeyword(text = '') {
-    return text.match(/^[A-Z0-9]+$/);
+    return text.match(/^[A-Z0-9_-]+$/);
 }
 
 function activate(context) {
     let subscriptions = context.subscriptions
     let disposable = [];
-
-    hintDataManager.init();
 
     // completion provider
     disposable[0] = vscode.languages.registerCompletionItemProvider(DOCUMENT_SELECTOR, {
@@ -69,6 +67,8 @@ function activate(context) {
             if (hasTextComment(textBeforeCursor)) {
                 return null;
             }
+
+            hintDataManager.init(document.languageId);
 
             const wordRange = document.getWordRangeAtPosition(position);
             const word = document.getText(wordRange);
@@ -97,6 +97,8 @@ function activate(context) {
             if (hasTextComment(textBeforeCursor)) {
                 return null;
             }
+
+            hintDataManager.init(document.languageId);
 
             const wordRange = document.getWordRangeAtPosition(position);
             const word = document.getText(wordRange);

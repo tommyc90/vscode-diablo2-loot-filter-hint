@@ -1,0 +1,76 @@
+{
+    "data": [
+        {
+            "data": [
+                {
+                    "id": "wss",
+                    "name": "Worldstone Shard"
+                },
+                {
+                    "id": "lbox",
+                    "name": "Larzuk's Puzzlebox"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "id": "imra",
+                    "name": "Zakarum Orb"
+                },
+                {
+                    "id": "imma",
+                    "name": "Arcane Orb"
+                },
+                {
+                    "id": "scou",
+                    "name": "Orb of Destruction"
+                },
+                {
+                    "id": "rera",
+                    "name": "Horadrim Orb"
+                },
+                {
+                    "id": "upma",
+                    "name": "Angelic Orb"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "id": "t11",
+                    "name": "PD2 Map"
+                },
+                {
+                    "id": "t12",
+                    "name": "PD2 Map"
+                },
+                {
+                    "id": "t13",
+                    "name": "PD2 Map"
+                },
+                {
+                    "id": "t14",
+                    "name": "PD2 Map"
+                },
+                {
+                    "id": "t15",
+                    "name": "PD2 Map"
+                },
+                {
+                    "id": "t16",
+                    "name": "Ruins of Viz-Jun Map"
+                },
+                {
+                    "id": "t17",
+                    "name": "River of Blood Map"
+                },
+                {
+                    "id": "t18",
+                    "name": "Lava Map"
+                }
+            ]
+        }
+    ]
+}

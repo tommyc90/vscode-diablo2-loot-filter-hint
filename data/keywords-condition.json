@@ -313,7 +313,7 @@
         },
         {
             "id": "RES",
-            "name": "% to all Resistances"
+            "name": "% to all resistances"
         },
         {
             "id": "ID",
@@ -338,6 +338,10 @@
         {
             "id": "GEMLEVEL",
             "name": "Gem level (1-5)"
+        },
+        {
+            "id": "GEMTYPE",
+            "name": "Gem type (1-7)"
         },
         {
             "id": "RUNE",

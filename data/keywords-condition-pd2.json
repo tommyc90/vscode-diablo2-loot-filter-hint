@@ -1,0 +1,231 @@
+{
+    "data": [
+        {
+            "id": "CRAFT",
+            "name": "Crafted items"
+        },
+
+
+
+        {
+            "id": "DRU",
+            "name": "Druid pelts"
+        },
+        {
+            "id": "BAR",
+            "name": "Barbarian helmets"
+        },
+        {
+            "id": "DIN",
+            "name": "Paladin shields"
+        },
+        {
+            "id": "NEC",
+            "name": "Necromancer shrunken heads"
+        },
+        {
+            "id": "SIN",
+            "name": "Assassin katars"
+        },
+        {
+            "id": "SOR",
+            "name": "Sorceress orbs"
+        },
+        {
+            "id": "ZON",
+            "name": "Amazon weapons"
+        },
+
+
+
+        {
+            "id": "AXE",
+            "name": "Axes"
+        },
+        {
+            "id": "MACE",
+            "name": "Maces"
+        },
+        {
+            "id": "SWORD",
+            "name": "Swords"
+        },
+        {
+            "id": "DAGGER",
+            "name": "Daggers"
+        },
+        {
+            "id": "THROWING",
+            "name": "Throwing weapons"
+        },
+        {
+            "id": "JAV",
+            "name": "Javelins"
+        },
+        {
+            "id": "SPEAR",
+            "name": "Spears"
+        },
+        {
+            "id": "POLEARM",
+            "name": "Polearms"
+        },
+        {
+            "id": "BOW",
+            "name": "Bows"
+        },
+        {
+            "id": "XBOW",
+            "name": "Crossbows"
+        },
+        {
+            "id": "STAFF",
+            "name": "Staves"
+        },
+        {
+            "id": "WAND",
+            "name": "Wands"
+        },
+        {
+            "id": "SCEPTER",
+            "name": "Scepters"
+        },
+        
+
+
+        {
+            "id": "HELM",
+            "name": "Helmets"
+        },
+        {
+            "id": "CHEST",
+            "name": "Body armors"
+        },
+        {
+            "id": "SHIELD",
+            "name": "Shields"
+        },
+        {
+            "id": "GLOVES",
+            "name": "Gloves"
+        },
+        {
+            "id": "BOOTS",
+            "name": "Boots"
+        },
+        {
+            "id": "BELT",
+            "name": "Belts"
+        },
+        {
+            "id": "CIRC",
+            "name": "Circlets"
+        },
+
+
+
+        {
+            "id": "ALVL",
+            "name": "Affix level"
+        },
+        {
+            "id": "QLVL",
+            "name": "Quality  level"
+        },
+        {
+            "id": "QTY",
+            "name": "Quantity"
+        },
+        {
+            "id": "LVLREQ",
+            "name": "Level requirement"
+        },
+        {
+            "id": "CRAFTALVL",
+            "name": "Crafting affix level"
+        },
+
+
+
+        {
+            "id": "MANA",
+            "name": "+ mana"
+        },
+        {
+            "id": "FHR",
+            "name": "Faster hit recovery"
+        },
+        {
+            "id": "FBR",
+            "name": "Faster block rate"
+        },
+        {
+            "id": "FRW",
+            "name": "Faster run/walk"
+        },
+        {
+            "id": "FRES",
+            "name": "% to fire resistances"
+        },
+        {
+            "id": "LRES",
+            "name": "% to lightning resistances"
+        },
+        {
+            "id": "CRES",
+            "name": "% to cold resistances"
+        },
+        {
+            "id": "PRES",
+            "name": "% to poison resistances"
+        },
+        {
+            "id": "MINDMG",
+            "name": "Minimum damage"
+        },
+        {
+            "id": "MAXDMG",
+            "name": "Maximum damage"
+        },
+        {
+            "id": "MFIND",
+            "name": "Magic find"
+        },
+        {
+            "id": "GFIND",
+            "name": "Gold find"
+        },
+        {
+            "id": "STR",
+            "name": "Strength"
+        },
+        {
+            "id": "DEX",
+            "name": "Dexterity"
+        },
+        {
+            "id": "REPAIR",
+            "name": "Auto-repair"
+        },
+        {
+            "id": "REPLIFE",
+            "name": "Replenish life"
+        },
+        {
+            "id": "MAEK",
+            "name": "Mana per kill"
+        },
+        {
+            "id": "DTM",
+            "name": "Damage to mana"
+        },
+        {
+            "id": "ARPER",
+            "name": "AR per level"
+        },
+        {
+            "id": "FOOLS",
+            "name": "Fool's mod"
+        }
+    ]
+}

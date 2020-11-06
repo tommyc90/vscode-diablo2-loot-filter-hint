@@ -1,0 +1,57 @@
+{
+    "data": [
+        {
+            "id": "DARK_GREEN",
+            "name": "Dark Green color"
+        },
+
+
+
+        {
+            "id": "QTY",
+            "name": "Quantity"
+        },
+        {
+            "id": "ALVL",
+            "name": "Affix level"
+        },
+        {
+            "id": "CLVL",
+            "name": "Character level"
+        },
+        {
+            "id": "RANGE",
+            "name": "Melee range adder"
+        },
+        {
+            "id": "WPNSPD",
+            "name": "Weapon speed modifier"
+        },
+
+
+
+        {
+            "id": "NL",
+            "name": "New line"
+        },
+
+
+
+        {
+            "id": "MAP",
+            "name": "Map icon setting"
+        },
+        {
+            "id": "DOT",
+            "name": "Map icon setting"
+        },
+        {
+            "id": "PX",
+            "name": "Map icon setting"
+        },
+        {
+            "id": "BORDER",
+            "name": "Map icon setting"
+        }
+    ]
+}
