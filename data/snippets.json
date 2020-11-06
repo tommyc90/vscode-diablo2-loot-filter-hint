@@ -1,6 +1,14 @@
 {
-    "ItemDisplay": {
+    "Item Display": {
       "prefix": "item",
       "body": "ItemDisplay[$0]: "
+    },
+    "Begin Region": {
+      "prefix": "region",
+      "body": "//#region $0"
+    },
+    "End Region": {
+      "prefix": ["endregion", "regionend"],
+      "body": "//#endregion"
     }
 }
