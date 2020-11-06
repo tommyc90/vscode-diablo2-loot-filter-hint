@@ -547,6 +547,62 @@
         {
             "id": "ear",
             "name": "Ear"
+        },
+        {
+            "data": [
+                {
+                    "id": "tes",
+                    "name": "Twisted Essence of Suffering"
+                },
+                {
+                    "id": "ceh",
+                    "name": "Charged Essence of Hatred"
+                },
+                {
+                    "id": "bet",
+                    "name": "Burning Essence of Terror"
+                },
+                {
+                    "id": "fed",
+                    "name": "Festering Essence of Destruction"
+                },
+                {
+                    "id": "toa",
+                    "name": "Token of Absolution"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "id": "pk1",
+                    "name": "Key of Terror"
+                },
+                {
+                    "id": "pk2",
+                    "name": "Key of Hatred"
+                },
+                {
+                    "id": "pk3",
+                    "name": "Key of Destruction"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "id": "dhn",
+                    "name": "Diablo's Horn"
+                },
+                {
+                    "id": "bey",
+                    "name": "Baal's Eye"
+                },
+                {
+                    "id": "mbr",
+                    "name": "Mephisto's Brain"
+                }
+            ]
         }
     ]
 }
