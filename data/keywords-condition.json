@@ -175,6 +175,189 @@
         {
             "id": "EQ7",
             "name": "Circlets"
+        },
+
+
+
+        {
+            "id": "ALLSK",
+            "name": "All Skills"
+        },
+        {
+            "id": "CLSK0",
+            "name": "Amazon Skills"
+        },
+        {
+            "id": "CLSK1",
+            "name": "Sorceress Skills"
+        },
+        {
+            "id": "CLSK2",
+            "name": "Necromancer Skills"
+        },
+        {
+            "id": "CLSK3",
+            "name": "Paladin Skills"
+        },
+        {
+            "id": "CLSK4",
+            "name": "Barbarian Skills"
+        },
+        {
+            "id": "CLSK5",
+            "name": "Druid Skills"
+        },
+        {
+            "id": "CLSK6",
+            "name": "Assassin Skills"
+        },
+
+
+
+        {
+            "id": "TABSK0",
+            "name": "Amazon: Bow & Crossbow"
+        },
+        {
+            "id": "TABSK1",
+            "name": "Amazon: Passive & Magic"
+        },
+        {
+            "id": "TABSK2",
+            "name": "Amazon: Javelin & Spear"
+        },
+
+        {
+            "id": "TABSK8",
+            "name": "Sorceress: Fire"
+        },
+        {
+            "id": "TABSK9",
+            "name": "Sorceress: Lightning"
+        },
+        {
+            "id": "TABSK10",
+            "name": "Sorceress: Cold"
+        },
+        
+        {
+            "id": "TABSK16",
+            "name": "Necromancer: Curses"
+        },
+        {
+            "id": "TABSK17",
+            "name": "Necromancer: Poison & Bone"
+        },
+        {
+            "id": "TABSK18",
+            "name": "Necromancer: Summon"
+        },
+
+        {
+            "id": "TABSK24",
+            "name": "Paladin: Combat"
+        },
+        {
+            "id": "TABSK25",
+            "name": "Paladin: Offensive Auras"
+        },
+        {
+            "id": "TABSK26",
+            "name": "Paladin: Defensive Auras"
+        },
+
+        {
+            "id": "TABSK32",
+            "name": "Barbarian: Combat"
+        },
+        {
+            "id": "TABSK33",
+            "name": "Barbarian: Masteries"
+        },
+        {
+            "id": "TABSK34",
+            "name": "Barbarian: Warcries"
+        },
+
+        {
+            "id": "TABSK40",
+            "name": "Druid: Summoning"
+        },
+        {
+            "id": "TABSK41",
+            "name": "Druid: Shapeshifting"
+        },
+        {
+            "id": "TABSK42",
+            "name": "Druid: Elemental"
+        },
+
+        {
+            "id": "TABSK48",
+            "name": "Assassin: Traps"
+        },
+        {
+            "id": "TABSK49",
+            "name": "Assassin: Shadow Disciplines"
+        },
+        {
+            "id": "TABSK50",
+            "name": "Assassin: Martial Arts"
+        },
+
+
+
+        {
+            "id": "ED",
+            "name": "% effective defense/damage"
+        },
+        {
+            "id": "RES",
+            "name": "% to all Resistances"
+        },
+        {
+            "id": "ID",
+            "name": "Identified"
+        },
+        {
+            "id": "DEF",
+            "name": "Total defense"
+        },
+        {
+            "id": "LIFE",
+            "name": "+ life"
+        },
+        {
+            "id": "IAS",
+            "name": "Increased attack speed"
+        },
+        {
+            "id": "FCR",
+            "name": "Faster cast rate"
+        },
+        {
+            "id": "GEMLEVEL",
+            "name": "Gem level (1-5)"
+        },
+        {
+            "id": "RUNE",
+            "name": "Rune level (1-33)"
+        },
+        {
+            "id": "SOCK",
+            "name": "Conditional socket count"
+        },
+        {
+            "id": "CLVL",
+            "name": "Character level"
+        },
+        {
+            "id": "ILVL",
+            "name": "Item level"
+        },
+        {
+            "id": "DIFF",
+            "name": "Current game difficulty (0-2)"
         }
     ]
 }

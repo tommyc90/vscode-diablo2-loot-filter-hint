@@ -3,7 +3,9 @@ const fs = require('fs');
 
 const ITEMS_DATA_FILES = [
     `${__dirname}/../data/items-armor.json`,
-    `${__dirname}/../data/items-weapon.json`
+    `${__dirname}/../data/items-weapon.json`,
+    `${__dirname}/../data/items-misc.json`,
+    `${__dirname}/../data/items-pod.json`
 ];
 
 const KEYWORDS_CONDITION_DATA_FILES = [
@@ -59,7 +61,7 @@ function processKeywords(keywords, keywordsType) {
             let completionItem = new vscode.CompletionItem(keyword.id);
             completionItem.kind = vscode.CompletionItemKind.Keyword;
             completionItem.insertText = keyword.id;
-            completionItem.documentation = keyword.name !== undefined ? keyword.name : null;
+            completionItem.detail = keyword.name !== undefined ? keyword.name : null;
             if (keywordsType === KEYWORDS_CONDITION) {
                 completionConditionKeywords.push(completionItem);
             } else {
@@ -112,6 +114,7 @@ function addCompletionItem(item, mdDescription, context) {
     const fullName = item.name !== undefined ? `${item.id}:${item.name}` : item.id;
     const completionItem = new vscode.CompletionItem(fullName);
     completionItem.insertText = item.id;
+    completionItem.detail = item.name !== undefined ? item.name : null;
     completionItem.documentation = mdDescription;
     //completionItem.filterText = [].concat([item.id, item.name], context).join(" ");
     completionItems.push(completionItem);

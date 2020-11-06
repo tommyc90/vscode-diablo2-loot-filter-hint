@@ -64,8 +64,20 @@
             "name": "Item name (including previous changes)"
         },
         {
+            "id": "GEMTYPE",
+            "name": "Same as %NAME% but gems (e.g. Skull)"
+        },
+        {
+            "id": "GEMLEVEL",
+            "name": "Gem level (e.g. Flawless)"
+        },
+        {
             "id": "RUNENAME",
-            "name": "Same as %NAME% but runes"
+            "name": "Same as %NAME% but runes (e.g. Zod)"
+        },
+        {
+            "id": "RUNENUM",
+            "name": "Rune number (1-33)"
         },
         {
             "id": "SOCKETS",
