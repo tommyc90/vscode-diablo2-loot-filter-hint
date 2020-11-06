@@ -1,10 +1,8 @@
 {
-    "id": "WEAPON",
-    "name": "All weapons",
+    "tags": ["WEAPON"],
     "data": [
         {
-            "id": "WP1",
-            "name": "Axes",
+            "tags": ["WP1"],
             "data": [
                 {
                     "data": [
@@ -19,6 +17,1617 @@
                         {
                             "id": "7ha",
                             "name": "Tomahawk"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "axe",
+                            "name": "Axe"
+                        },
+                        {
+                            "id": "9ax",
+                            "name": "Cleaver"
+                        },
+                        {
+                            "id": "7ax",
+                            "name": "Small Crescent"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "2ax",
+                            "name": "Double Axe"
+                        },
+                        {
+                            "id": "92a",
+                            "name": "Twin Axe"
+                        },
+                        {
+                            "id": "72a",
+                            "name": "Ettin Axe"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "mpi",
+                            "name": "Military Pick"
+                        },
+                        {
+                            "id": "9mp",
+                            "name": "Crowbill"
+                        },
+                        {
+                            "id": "7mp",
+                            "name": "War Spike"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "wax",
+                            "name": "War Axe"
+                        },
+                        {
+                            "id": "9wa",
+                            "name": "Naga"
+                        },
+                        {
+                            "id": "7wa",
+                            "name": "Berserker Axe"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "lax",
+                            "name": "Large Axe"
+                        },
+                        {
+                            "id": "9la",
+                            "name": "Military Axe"
+                        },
+                        {
+                            "id": "7la",
+                            "name": "Feral Axe"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "bax",
+                            "name": "Broad Axe"
+                        },
+                        {
+                            "id": "9ba",
+                            "name": "Bearded Axe"
+                        },
+                        {
+                            "id": "7ba",
+                            "name": "Silver Edged Ax"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "btx",
+                            "name": "Battle Axe"
+                        },
+                        {
+                            "id": "9bt",
+                            "name": "Tabar"
+                        },
+                        {
+                            "id": "7bt",
+                            "name": "Decapitator"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "gax",
+                            "name": "Great Axe"
+                        },
+                        {
+                            "id": "9ga",
+                            "name": "Gothic Axe"
+                        },
+                        {
+                            "id": "7ga",
+                            "name": "Champion Axe"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "gix",
+                            "name": "Giant Axe"
+                        },
+                        {
+                            "id": "9gi",
+                            "name": "Ancient Axe"
+                        },
+                        {
+                            "id": "7gi",
+                            "name": "Glorious Axe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["WP2"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "clb",
+                            "name": "Club"
+                        },
+                        {
+                            "id": "9cl",
+                            "name": "Cudgel"
+                        },
+                        {
+                            "id": "7cl",
+                            "name": "Truncheon"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "spc",
+                            "name": "Spiked Club"
+                        },
+                        {
+                            "id": "9sp",
+                            "name": "Barbed Club"
+                        },
+                        {
+                            "id": "7sp",
+                            "name": "Tyrant Club"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "mac",
+                            "name": "Mace"
+                        },
+                        {
+                            "id": "9ma",
+                            "name": "Flanged Mace"
+                        },
+                        {
+                            "id": "7ma",
+                            "name": "Reinforced Mace"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "mst",
+                            "name": "Morning Star"
+                        },
+                        {
+                            "id": "9mt",
+                            "name": "Jagged Star"
+                        },
+                        {
+                            "id": "7mf",
+                            "name": "Devil Star"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "fla",
+                            "name": "Flail"
+                        },
+                        {
+                            "id": "9fl",
+                            "name": "Knout"
+                        },
+                        {
+                            "id": "7fl",
+                            "name": "Scourge"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "whm",
+                            "name": "War Hammer"
+                        },
+                        {
+                            "id": "9wh",
+                            "name": "Battle Hammer"
+                        },
+                        {
+                            "id": "7wh",
+                            "name": "Legendary Mallt"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "mau",
+                            "name": "Maul"
+                        },
+                        {
+                            "id": "9m9",
+                            "name": "War Club"
+                        },
+                        {
+                            "id": "7m7",
+                            "name": "Ogre Maul"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "gma",
+                            "name": "Great Maul"
+                        },
+                        {
+                            "id": "9gm",
+                            "name": "Martel de Fer"
+                        },
+                        {
+                            "id": "7gm",
+                            "name": "Thunder Maul"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["WP3"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "ssd",
+                            "name": "Short Swrod"
+                        },
+                        {
+                            "id": "9ss",
+                            "name": "Gladius"
+                        },
+                        {
+                            "id": "7ss",
+                            "name": "Falcata"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "scm",
+                            "name": "Scimitar"
+                        },
+                        {
+                            "id": "9sm",
+                            "name": "Cutlass"
+                        },
+                        {
+                            "id": "7sm",
+                            "name": "Ataghan"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "sbr",
+                            "name": "Saber"
+                        },
+                        {
+                            "id": "9sb",
+                            "name": "Shamshir"
+                        },
+                        {
+                            "id": "7sb",
+                            "name": "Elegant Blade"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "flc",
+                            "name": "Falchion"
+                        },
+                        {
+                            "id": "9fc",
+                            "name": "Tulwar"
+                        },
+                        {
+                            "id": "7fc",
+                            "name": "Hydra Edge"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "crs",
+                            "name": "Crystal Sword"
+                        },
+                        {
+                            "id": "9cr",
+                            "name": "Dimensional Bld"
+                        },
+                        {
+                            "id": "7cr",
+                            "name": "Phase Blade"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "bsd",
+                            "name": "Broad Sword"
+                        },
+                        {
+                            "id": "9bs",
+                            "name": "Battle Sword"
+                        },
+                        {
+                            "id": "7bs",
+                            "name": "Conquest Sword"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "lsd",
+                            "name": "Long Sword"
+                        },
+                        {
+                            "id": "9ls",
+                            "name": "Rune Sword"
+                        },
+                        {
+                            "id": "7ls",
+                            "name": "Cryptic Sword"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "wsd",
+                            "name": "War Sword"
+                        },
+                        {
+                            "id": "9wd",
+                            "name": "Ancient Sword"
+                        },
+                        {
+                            "id": "7wd",
+                            "name": "Mythical Sword"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "2hs",
+                            "name": "Two-handed Swrd"
+                        },
+                        {
+                            "id": "92h",
+                            "name": "Espadon"
+                        },
+                        {
+                            "id": "72h",
+                            "name": "Legend Sword"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "clm",
+                            "name": "Claymore"
+                        },
+                        {
+                            "id": "9cm",
+                            "name": "Dacian Falx"
+                        },
+                        {
+                            "id": "7cm",
+                            "name": "Highland Blade"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "gis",
+                            "name": "Giant Sword"
+                        },
+                        {
+                            "id": "9gs",
+                            "name": "Tusk Sword"
+                        },
+                        {
+                            "id": "7gs",
+                            "name": "Balrog Blade"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "bsw",
+                            "name": "Bastard Sword"
+                        },
+                        {
+                            "id": "9b9",
+                            "name": "Gothic Sword"
+                        },
+                        {
+                            "id": "7b7",
+                            "name": "Champion Sword"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "flb",
+                            "name": "Flamberge"
+                        },
+                        {
+                            "id": "9fb",
+                            "name": "Zweihander"
+                        },
+                        {
+                            "id": "7fb",
+                            "name": "Colossal Sword"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "gsd",
+                            "name": "Great Sword"
+                        },
+                        {
+                            "id": "9gd",
+                            "name": "Executioner Swr"
+                        },
+                        {
+                            "id": "7gd",
+                            "name": "Colossus Blade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["WP4"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "dgr",
+                            "name": "Dagger"
+                        },
+                        {
+                            "id": "9dg",
+                            "name": "Poignard"
+                        },
+                        {
+                            "id": "7dg",
+                            "name": "Bone Knife"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "dir",
+                            "name": "Dirk"
+                        },
+                        {
+                            "id": "9di",
+                            "name": "Rondel"
+                        },
+                        {
+                            "id": "7di",
+                            "name": "Mithral Point"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "kri",
+                            "name": "Kriss"
+                        },
+                        {
+                            "id": "9kr",
+                            "name": "Cinquedeas"
+                        },
+                        {
+                            "id": "7kr",
+                            "name": "Fanged Knife"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "bld",
+                            "name": "Blade"
+                        },
+                        {
+                            "id": "9bl",
+                            "name": "Stilleto"
+                        },
+                        {
+                            "id": "7bl",
+                            "name": "Legend Spike"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["WP5"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "tkf",
+                            "name": "Throwing Knife"
+                        },
+                        {
+                            "id": "9tk",
+                            "name": "Battle Dart"
+                        },
+                        {
+                            "id": "7tk",
+                            "name": "Flying Knife"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "tax",
+                            "name": "Throwing Axe"
+                        },
+                        {
+                            "id": "9ta",
+                            "name": "Francisca"
+                        },
+                        {
+                            "id": "7ta",
+                            "name": "Flying Axe"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "bkf",
+                            "name": "Balanced Knife"
+                        },
+                        {
+                            "id": "9bk",
+                            "name": "War Dart"
+                        },
+                        {
+                            "id": "7bk",
+                            "name": "Winged Knife"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "bal",
+                            "name": "Balanced Axe"
+                        },
+                        {
+                            "id": "9b8",
+                            "name": "Hurlbat"
+                        },
+                        {
+                            "id": "7b8",
+                            "name": "Winged Axe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["WP6"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "jav",
+                            "name": "Javelin"
+                        },
+                        {
+                            "id": "9ja",
+                            "name": "War Javelin"
+                        },
+                        {
+                            "id": "7ja",
+                            "name": "Hyperion Javeln"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "pil",
+                            "name": "Pilum"
+                        },
+                        {
+                            "id": "9pi",
+                            "name": "Great Pilum"
+                        },
+                        {
+                            "id": "7pi",
+                            "name": "Stygian Pilum"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ssp",
+                            "name": "Short Spear"
+                        },
+                        {
+                            "id": "9s9",
+                            "name": "Simbilan"
+                        },
+                        {
+                            "id": "7s7",
+                            "name": "Balrog Spear"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "glv",
+                            "name": "Glaive"
+                        },
+                        {
+                            "id": "9gl",
+                            "name": "Spiculum"
+                        },
+                        {
+                            "id": "7gl",
+                            "name": "Ghost Glaive"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "tsp",
+                            "name": "Throwing Spear"
+                        },
+                        {
+                            "id": "9ts",
+                            "name": "Harpoon"
+                        },
+                        {
+                            "id": "7ts",
+                            "name": "Winged Harpoon"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["WP7"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "spr",
+                            "name": "Spear"
+                        },
+                        {
+                            "id": "9sr",
+                            "name": "War Spear"
+                        },
+                        {
+                            "id": "7sr",
+                            "name": "Hyperion Spear"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "tri",
+                            "name": "Trident"
+                        },
+                        {
+                            "id": "9tr",
+                            "name": "Fuscina"
+                        },
+                        {
+                            "id": "7tr",
+                            "name": "Stygian Pike"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "brn",
+                            "name": "Brandistock"
+                        },
+                        {
+                            "id": "9br",
+                            "name": "War Fork"
+                        },
+                        {
+                            "id": "7br",
+                            "name": "Mancatcher"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "spt",
+                            "name": "Spetum"
+                        },
+                        {
+                            "id": "9st",
+                            "name": "Yari"
+                        },
+                        {
+                            "id": "7st",
+                            "name": "Ghost Spear"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "pik",
+                            "name": "Pike"
+                        },
+                        {
+                            "id": "9p9",
+                            "name": "Lance"
+                        },
+                        {
+                            "id": "7p7",
+                            "name": "War Pike"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["WP8"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "bar",
+                            "name": "Bardiche"
+                        },
+                        {
+                            "id": "9b7",
+                            "name": "Lochaber Axe"
+                        },
+                        {
+                            "id": "7o7",
+                            "name": "Ogre Axe"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "vou",
+                            "name": "Voulge"
+                        },
+                        {
+                            "id": "9vo",
+                            "name": "Bill"
+                        },
+                        {
+                            "id": "7vo",
+                            "name": "Colossus Voulge"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "scy",
+                            "name": "Scythe"
+                        },
+                        {
+                            "id": "9s8",
+                            "name": "Battle Scythe"
+                        },
+                        {
+                            "id": "7s8",
+                            "name": "Thresher"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "pax",
+                            "name": "Poleaxe"
+                        },
+                        {
+                            "id": "9pa",
+                            "name": "Partizan"
+                        },
+                        {
+                            "id": "7pa",
+                            "name": "Cryptic Axe"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "hal",
+                            "name": "Halberd"
+                        },
+                        {
+                            "id": "9h9",
+                            "name": "Bec-de-Corbin"
+                        },
+                        {
+                            "id": "7h7",
+                            "name": "Great Poleaxe"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "wsc",
+                            "name": "War Scythe"
+                        },
+                        {
+                            "id": "9wc",
+                            "name": "Grim Scythe"
+                        },
+                        {
+                            "id": "7wc",
+                            "name": "Giant Thresher"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["WP9"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "sbw",
+                            "name": "Short Bow"
+                        },
+                        {
+                            "id": "8sb",
+                            "name": "Edge Bow"
+                        },
+                        {
+                            "id": "6sb",
+                            "name": "Spider Bow"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "hbw",
+                            "name": "Hunter’s Bow"
+                        },
+                        {
+                            "id": "8hb",
+                            "name": "Razor Bow"
+                        },
+                        {
+                            "id": "6hb",
+                            "name": "Blade Bow"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "lbw",
+                            "name": "Long Bow"
+                        },
+                        {
+                            "id": "8lb",
+                            "name": "Cedar Bow"
+                        },
+                        {
+                            "id": "6lb",
+                            "name": "Shadow Bow"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "cbw",
+                            "name": "Composite Bow"
+                        },
+                        {
+                            "id": "8cb",
+                            "name": "Double Bow"
+                        },
+                        {
+                            "id": "6cb",
+                            "name": "Great Bow"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "sbb",
+                            "name": "Shrt Battle Bow"
+                        },
+                        {
+                            "id": "8s8",
+                            "name": "Short Siege Bow"
+                        },
+                        {
+                            "id": "6s7",
+                            "name": "Diamond Bow"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "lbb",
+                            "name": "Long Battle Bow"
+                        },
+                        {
+                            "id": "8l8",
+                            "name": "Long Siege Bow"
+                        },
+                        {
+                            "id": "6l7",
+                            "name": "Crusader Bow"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "swb",
+                            "name": "Short War Bow"
+                        },
+                        {
+                            "id": "8sw",
+                            "name": "Rune Bow"
+                        },
+                        {
+                            "id": "6sw",
+                            "name": "Ward Bow"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "lwb",
+                            "name": "Long War Bow"
+                        },
+                        {
+                            "id": "8lw",
+                            "name": "Gothic Bow"
+                        },
+                        {
+                            "id": "6lw",
+                            "name": "Hydra Bow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["WP10"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "lxb",
+                            "name": "Light Crossbow"
+                        },
+                        {
+                            "id": "8lx",
+                            "name": "Arbalest"
+                        },
+                        {
+                            "id": "6lx",
+                            "name": "Pellet Bow"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "mxb",
+                            "name": "Crossbow"
+                        },
+                        {
+                            "id": "8mx",
+                            "name": "Siege Crossbow"
+                        },
+                        {
+                            "id": "6mx",
+                            "name": "Gorgon Crossbow"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "hxb",
+                            "name": "Heavy Crossbow"
+                        },
+                        {
+                            "id": "8hx",
+                            "name": "Ballista"
+                        },
+                        {
+                            "id": "6hx",
+                            "name": "Colossus x-bow"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "rxb",
+                            "name": "Repeating X-bow"
+                        },
+                        {
+                            "id": "8rx",
+                            "name": "Chu-Ko-Nu"
+                        },
+                        {
+                            "id": "6rx",
+                            "name": "Demon Crossbow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["WP11"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "sst",
+                            "name": "Short Staff"
+                        },
+                        {
+                            "id": "8ss",
+                            "name": "Jo Staff"
+                        },
+                        {
+                            "id": "6ss",
+                            "name": "Walking Stick"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "lst",
+                            "name": "Long Staff"
+                        },
+                        {
+                            "id": "8ls",
+                            "name": "Quarterstaff"
+                        },
+                        {
+                            "id": "6ls",
+                            "name": "Stalagmite"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "gst",
+                            "name": "Gnarled Staff"
+                        },
+                        {
+                            "id": "8cs",
+                            "name": "Cedar Staff"
+                        },
+                        {
+                            "id": "6cs",
+                            "name": "Elder Staff"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "bst",
+                            "name": "Battle Staff"
+                        },
+                        {
+                            "id": "8bs",
+                            "name": "Gothic Staff"
+                        },
+                        {
+                            "id": "6bs",
+                            "name": "Shillelagh"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "wst",
+                            "name": "War Staff"
+                        },
+                        {
+                            "id": "8ws",
+                            "name": "Rune Staff"
+                        },
+                        {
+                            "id": "6ws",
+                            "name": "Archon Staff"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["WP12"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "wnd",
+                            "name": "Wand"
+                        },
+                        {
+                            "id": "9wn",
+                            "name": "Burnt Wand"
+                        },
+                        {
+                            "id": "7wn",
+                            "name": "Polished Wand"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ywn",
+                            "name": "Yew Wand"
+                        },
+                        {
+                            "id": "9yw",
+                            "name": "Petrified Wand"
+                        },
+                        {
+                            "id": "7yw",
+                            "name": "Ghost Wand"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "bwn",
+                            "name": "Bone Wand"
+                        },
+                        {
+                            "id": "9bw",
+                            "name": "Tomb Wand"
+                        },
+                        {
+                            "id": "7bw",
+                            "name": "Lich Wand"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "gwn",
+                            "name": "Grim Wand"
+                        },
+                        {
+                            "id": "9gw",
+                            "name": "Grave Wand"
+                        },
+                        {
+                            "id": "7gw",
+                            "name": "Unearthed Wand"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["WP13"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "scp",
+                            "name": "Sceptre"
+                        },
+                        {
+                            "id": "9sc",
+                            "name": "Rune Sceptre"
+                        },
+                        {
+                            "id": "7sc",
+                            "name": "Mighty Sceptre"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "gsc",
+                            "name": "Grand Sceptre"
+                        },
+                        {
+                            "id": "9qs",
+                            "name": "Holy Water Spri"
+                        },
+                        {
+                            "id": "7qs",
+                            "name": "Seraph Rod"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "wsp",
+                            "name": "War Sceptre"
+                        },
+                        {
+                            "id": "9ws",
+                            "name": "Divine Sceptre"
+                        },
+                        {
+                            "id": "7ws",
+                            "name": "Caduceus"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["CL5"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "ktr",
+                            "name": "Katar"
+                        },
+                        {
+                            "id": "9ar",
+                            "name": "Quhab"
+                        },
+                        {
+                            "id": "7ar",
+                            "name": "Suwayyah"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "wrb",
+                            "name": "Wrist Blade"
+                        },
+                        {
+                            "id": "9wb",
+                            "name": "Wrist Spike"
+                        },
+                        {
+                            "id": "7wb",
+                            "name": "Wrist Sword"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "axf",
+                            "name": "Hatchet Hands"
+                        },
+                        {
+                            "id": "9xf",
+                            "name": "Fascia"
+                        },
+                        {
+                            "id": "7xf",
+                            "name": "War Fist"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ces",
+                            "name": "Cestus"
+                        },
+                        {
+                            "id": "9cs",
+                            "name": "Hand Scythe"
+                        },
+                        {
+                            "id": "7cs",
+                            "name": "Battle Cestus"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "clw",
+                            "name": "Claws"
+                        },
+                        {
+                            "id": "9lw",
+                            "name": "Greater Claws"
+                        },
+                        {
+                            "id": "7lw",
+                            "name": "Feral Claws"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "btl",
+                            "name": "Blade Talons"
+                        },
+                        {
+                            "id": "9hw",
+                            "name": "Greater Talons"
+                        },
+                        {
+                            "id": "7hw",
+                            "name": "Runic Talons"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "skr",
+                            "name": "Scissors Katar"
+                        },
+                        {
+                            "id": "9qr",
+                            "name": "Scissors Quhab"
+                        },
+                        {
+                            "id": "7qr",
+                            "name": "Scissors Suwayh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["CL6"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "ob1",
+                            "name": "Eagle Orb"
+                        },
+                        {
+                            "id": "ob6",
+                            "name": "Glowing Orb"
+                        },
+                        {
+                            "id": "obb",
+                            "name": "Heavenly Stone"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ob2",
+                            "name": "Sacred Globe"
+                        },
+                        {
+                            "id": "ob7",
+                            "name": "Crystalline Glb"
+                        },
+                        {
+                            "id": "obc",
+                            "name": "Eldritch Orb"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ob3",
+                            "name": "Smoked Sphere"
+                        },
+                        {
+                            "id": "ob8",
+                            "name": "Cloudy Sphere"
+                        },
+                        {
+                            "id": "obd",
+                            "name": "Demon Heart"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ob4",
+                            "name": "Clasped Orb"
+                        },
+                        {
+                            "id": "ob9",
+                            "name": "Sparkling Ball"
+                        },
+                        {
+                            "id": "obe",
+                            "name": "Vortex Orb"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ob5",
+                            "name": "Dragon Stone"
+                        },
+                        {
+                            "id": "oba",
+                            "name": "Swirling Crystl"
+                        },
+                        {
+                            "id": "obf",
+                            "name": "Dimensional Shrd"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["CL7"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "am1",
+                            "name": "Stag Bow"
+                        },
+                        {
+                            "id": "am6",
+                            "name": "Ashwood Bow"
+                        },
+                        {
+                            "id": "amb",
+                            "name": "Matriarchal Bow"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "am2",
+                            "name": "Reflex Bow"
+                        },
+                        {
+                            "id": "am7",
+                            "name": "Ceremonial Bow"
+                        },
+                        {
+                            "id": "amc",
+                            "name": "Grnd Matron Bow"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "am3",
+                            "name": "Maiden Spear"
+                        },
+                        {
+                            "id": "am8",
+                            "name": "Ceremonial Spr"
+                        },
+                        {
+                            "id": "amd",
+                            "name": "Matriarchal Spr"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "am4",
+                            "name": "Maiden Pike"
+                        },
+                        {
+                            "id": "am9",
+                            "name": "Ceremonial Pike"
+                        },
+                        {
+                            "id": "ame",
+                            "name": "Matriarchal Pik"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "am5",
+                            "name": "Maiden Javelin"
+                        },
+                        {
+                            "id": "ama",
+                            "name": "Ceremonial Jav"
+                        },
+                        {
+                            "id": "amf",
+                            "name": "Matriarchal Jav"
                         }
                     ]
                 }

@@ -1,3 +1,552 @@
 {
-    
+    "data": [
+        {
+            "data": [
+                {
+                    "id": "gps",
+                    "name": "Rancid Gas Pot"
+                },
+                {
+                    "id": "ops",
+                    "name": "Oil Potion"
+                },
+                {
+                    "id": "gpm",
+                    "name": "Choking Gas Pot"
+                },
+                {
+                    "id": "opm",
+                    "name": "Exploding Pot"
+                },
+                {
+                    "id": "gpl",
+                    "name": "Strangling Gas"
+                },
+                {
+                    "id": "opl",
+                    "name": "Fulminating Pot"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "id": "leg",
+                    "name": "Wirt’s Leg"
+                },
+                {
+                    "id": "hdm",
+                    "name": "Horadric Malus"
+                },
+                {
+                    "id": "bks",
+                    "name": "Scroll of Inifuss 1"
+                },
+                {
+                    "id": "bkd",
+                    "name": "Scroll of Inifuss 2"
+                },
+                {
+                    "id": "ass",
+                    "name": "Book of Skill"
+                },
+                {
+                    "id": "box",
+                    "name": "Horadric Cube"
+                },
+                {
+                    "id": "tr1",
+                    "name": "Horadric Scroll"
+                },
+                {
+                    "id": "msf",
+                    "name": "Staff of Kings"
+                },
+                {
+                    "id": "vip",
+                    "name": "Viper Amulet"
+                },
+                {
+                    "id": "hst",
+                    "name": "Horadric Staff"
+                },
+                {
+                    "id": "xyz",
+                    "name": "Potion of Life"
+                },
+                {
+                    "id": "j34",
+                    "name": "A Jade Figurine"
+                },
+                {
+                    "id": "g34",
+                    "name": "The Golden Bird"
+                },
+                {
+                    "id": "bbb",
+                    "name": "Lam Esen’s Tome"
+                },
+                {
+                    "id": "g33",
+                    "name": "Gidbinn"
+                },
+                {
+                    "id": "qf1",
+                    "name": "Khalim’s Flail"
+                },
+                {
+                    "id": "qf2",
+                    "name": "Khalim’s Will"
+                },
+                {
+                    "id": "qey",
+                    "name": "Khalim’s Eye"
+                },
+                {
+                    "id": "qhr",
+                    "name": "Khalim’s Heart"
+                },
+                {
+                    "id": "qbr",
+                    "name": "Khalim’s Brain"
+                },
+                {
+                    "id": "mss",
+                    "name": "Mephisto’s Soulstone"
+                },
+                {
+                    "id": "hfh",
+                    "name": "Hellforge Hammr"
+                },
+                {
+                    "id": "ice",
+                    "name": "Malah’s Potion"
+                },
+                {
+                    "id": "tr2",
+                    "name": "Scroll of Resistance"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "id": "gcv",
+                    "name": "Chipped Amethyst"
+                },
+                {
+                    "id": "gcw",
+                    "name": "Chipped Diamond"
+                },
+                {
+                    "id": "gcg",
+                    "name": "Chipped Emerald"
+                },
+                {
+                    "id": "gcr",
+                    "name": "Chipped Ruby"
+                },
+                {
+                    "id": "gcb",
+                    "name": "Chipped Saphire"
+                },
+                {
+                    "id": "skc",
+                    "name": "Chipped Skull"
+                },
+                {
+                    "id": "gcy",
+                    "name": "Chipped Topaz"
+                },
+                {
+                    "id": "gfv",
+                    "name": "Flawed Amethyst"
+                },
+                {
+                    "id": "gfw",
+                    "name": "Flawed Diamond"
+                },
+                {
+                    "id": "gfg",
+                    "name": "Flawed Emerald"
+                },
+                {
+                    "id": "gfr",
+                    "name": "Flawed Ruby"
+                },
+                {
+                    "id": "gfb",
+                    "name": "Flawed Saphire"
+                },
+                {
+                    "id": "skf",
+                    "name": "Flawed Skull"
+                },
+                {
+                    "id": "gfy",
+                    "name": "Flawed Topaz"
+                },
+                {
+                    "id": "gsv",
+                    "name": "Amethyst"
+                },
+                {
+                    "id": "gsw",
+                    "name": "Diamond"
+                },
+                {
+                    "id": "gsg",
+                    "name": "Emerald"
+                },
+                {
+                    "id": "gsr",
+                    "name": "Ruby"
+                },
+                {
+                    "id": "gsb",
+                    "name": "Saphire"
+                },
+                {
+                    "id": "sku",
+                    "name": "Skull"
+                },
+                {
+                    "id": "gsy",
+                    "name": "Topaz"
+                },
+                {
+                    "id": "gzv",
+                    "name": "Flawless Amethyst"
+                },
+                {
+                    "id": "glw",
+                    "name": "Flawless Diamond"
+                },
+                {
+                    "id": "glg",
+                    "name": "Flawless Emerald"
+                },
+                {
+                    "id": "glr",
+                    "name": "Flawless Ruby"
+                },
+                {
+                    "id": "glb",
+                    "name": "Flawless Saphire"
+                },
+                {
+                    "id": "skl",
+                    "name": "Flawless Skull"
+                },
+                {
+                    "id": "gly",
+                    "name": "Flawless Topaz"
+                },
+                {
+                    "id": "gpw",
+                    "name": "Perfect Diamond"
+                },
+                {
+                    "id": "gpv",
+                    "name": "Perfect Amethyst"
+                },
+                {
+                    "id": "gpb",
+                    "name": "Perfect Sapphire"
+                },
+                {
+                    "id": "gpy",
+                    "name": "Perfect Topaz"
+                },
+                {
+                    "id": "gpr",
+                    "name": "Perfect Ruby"
+                },
+                {
+                    "id": "skz",
+                    "name": "Perfect Skull"
+                },
+                {
+                    "id": "gpg",
+                    "name": "Perfect Emerald"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "id": "r01",
+                    "name": "El Rune"
+                },
+                {
+                    "id": "r02",
+                    "name": "Eld Rune"
+                },
+                {
+                    "id": "r03",
+                    "name": "Tir Rune"
+                },
+                {
+                    "id": "r04",
+                    "name": "Nef Rune"
+                },
+                {
+                    "id": "r05",
+                    "name": "Eth Rune"
+                },
+                {
+                    "id": "r06",
+                    "name": "Ith Rune"
+                },
+                {
+                    "id": "r07",
+                    "name": "Tal Rune"
+                },
+                {
+                    "id": "r08",
+                    "name": "Ral Rune"
+                },
+                {
+                    "id": "r09",
+                    "name": "Ort Rune"
+                },
+                {
+                    "id": "r10",
+                    "name": "Thul Rune"
+                },
+                {
+                    "id": "r11",
+                    "name": "Amn Rune"
+                },
+                {
+                    "id": "r12",
+                    "name": "Sol Rune"
+                },
+                {
+                    "id": "r13",
+                    "name": "Shael Rune"
+                },
+                {
+                    "id": "r14",
+                    "name": "Dol Rune"
+                },
+                {
+                    "id": "r15",
+                    "name": "Hel Rune"
+                },
+                {
+                    "id": "r16",
+                    "name": "Io Rune"
+                },
+                {
+                    "id": "r17",
+                    "name": "Lum Rune"
+                },
+                {
+                    "id": "r18",
+                    "name": "Ko Rune"
+                },
+                {
+                    "id": "r19",
+                    "name": "Fal Rune"
+                },
+                {
+                    "id": "r20",
+                    "name": "Lem Rune"
+                },
+                {
+                    "id": "r21",
+                    "name": "Pul Rune"
+                },
+                {
+                    "id": "r22",
+                    "name": "Um Rune"
+                },
+                {
+                    "id": "r23",
+                    "name": "Mal Rune"
+                },
+                {
+                    "id": "r24",
+                    "name": "Ist Rune"
+                },
+                {
+                    "id": "r25",
+                    "name": "Gul Rune"
+                },
+                {
+                    "id": "r26",
+                    "name": "Vex Rune"
+                },
+                {
+                    "id": "r27",
+                    "name": "Ohm Rune"
+                },
+                {
+                    "id": "r28",
+                    "name": "Lo Rune"
+                },
+                {
+                    "id": "r29",
+                    "name": "Sur Rune"
+                },
+                {
+                    "id": "r30",
+                    "name": "Ber Rune"
+                },
+                {
+                    "id": "r31",
+                    "name": "Jah Rune"
+                },
+                {
+                    "id": "r32",
+                    "name": "Cham Rune"
+                },
+                {
+                    "id": "r33",
+                    "name": "Zod Rune"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "id": "yps",
+                    "name": "Antidote Potion"
+                },
+                {
+                    "id": "vps",
+                    "name": "Stamina Potion"
+                },
+                {
+                    "id": "wms",
+                    "name": "Thawing Potion"
+                },
+                {
+                    "id": "hp1",
+                    "name": "Minor Healing Potion"
+                },
+                {
+                    "id": "mp1",
+                    "name": "Minor Mana Potion"
+                },
+                {
+                    "id": "hp2",
+                    "name": "Light Healing Potion"
+                },
+                {
+                    "id": "mp2",
+                    "name": "Light Mana Potion"
+                },
+                {
+                    "id": "hp3",
+                    "name": "Healing Potion"
+                },
+                {
+                    "id": "mp3",
+                    "name": "Mana Potion"
+                },
+                {
+                    "id": "hp4",
+                    "name": "Greater Healing Potion"
+                },
+                {
+                    "id": "mp4",
+                    "name": "Greater Mana Potion"
+                },
+                {
+                    "id": "hp5",
+                    "name": "Super Healing Potion"
+                },
+                {
+                    "id": "mp5",
+                    "name": "Super Mana Potion"
+                },
+                {
+                    "id": "rvs",
+                    "name": "Rejuv Potion"
+                },
+                {
+                    "id": "rvl",
+                    "name": "Full Rejuv Potion"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "id": "cm1",
+                    "name": "Charm Small"
+                },
+                {
+                    "id": "cm2",
+                    "name": "Charm Large"
+                },
+                {
+                    "id": "cm3",
+                    "name": "Charm Grand"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "id": "isc",
+                    "name": "Identify Scroll"
+                },
+                {
+                    "id": "tsc",
+                    "name": "Town Portal Scroll"
+                },
+                {
+                    "id": "tbk",
+                    "name": "Tome of Town Portal"
+                },
+                {
+                    "id": "ibk",
+                    "name": "Tome of Identify"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "id": "aqv",
+                    "name": "Arrows"
+                },
+                {
+                    "id": "cqv",
+                    "name": "Bolts"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "id": "jew",
+                    "name": "Jewel"
+                },
+                {
+                    "id": "amu",
+                    "name": "amulet"
+                },
+                {
+                    "id": "rin",
+                    "name": "ring"
+                }
+            ]
+        },
+        {
+            "id": "gld",
+            "name": "gold"
+        },
+        {
+            "id": "key",
+            "name": "Skeleton Key"
+        },
+        {
+            "id": "ear",
+            "name": "Ear"
+        }
+    ]
 }

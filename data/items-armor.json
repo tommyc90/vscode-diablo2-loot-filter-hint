@@ -1,8 +1,8 @@
 {
-    "id": "ARMOR",
+    "tags": ["ARMOR"],
     "data": [
         {
-            "id": "EQ1",
+            "tags": ["EQ1"],
             "data": [
                 {
                     "data": [
@@ -12,18 +12,130 @@
                         },
                         {
                             "id": "xap",
-                            "name": "War Cap"
+                            "name": "War Hat"
                         },
                         {
                             "id": "uap",
                             "name": "Shako"
                         }
                     ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "skp",
+                            "name": "Skull Cap"
+                        },
+                        {
+                            "id": "xkp",
+                            "name": "Sallet"
+                        },
+                        {
+                            "id": "ukp",
+                            "name": "Hydraskull"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "hlm",
+                            "name": "Helm"
+                        },
+                        {
+                            "id": "xlm",
+                            "name": "Casque"
+                        },
+                        {
+                            "id": "ulm",
+                            "name": "Armet"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "fhl",
+                            "name": "Full Helm"
+                        },
+                        {
+                            "id": "xhl",
+                            "name": "Basinet"
+                        },
+                        {
+                            "id": "uhl",
+                            "name": "Giant Conch"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ghm",
+                            "name": "Great Helm"
+                        },
+                        {
+                            "id": "xhm",
+                            "name": "Winged Helm"
+                        },
+                        {
+                            "id": "uhm",
+                            "name": "Spired Helm"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "crn",
+                            "name": "Crown"
+                        },
+                        {
+                            "id": "xrn",
+                            "name": "Grand Crown"
+                        },
+                        {
+                            "id": "urn",
+                            "name": "Corona"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "msk",
+                            "name": "Mask"
+                        },
+                        {
+                            "id": "xsk",
+                            "name": "Death Mask"
+                        },
+                        {
+                            "id": "usk",
+                            "name": "Demonhead"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "bhm",
+                            "name": "Bone Helm"
+                        },
+                        {
+                            "id": "xh9",
+                            "name": "Grim Helm"
+                        },
+                        {
+                            "id": "uh9",
+                            "name": "Bone Visage"
+                        }
+                    ]
                 }
             ]
         },
         {
-            "id": "EQ2",
+            "tags": ["EQ2"],
             "data": [
                 {
                     "data": [
@@ -38,6 +150,979 @@
                         {
                             "id": "uui",
                             "name": "Dusk Shroud"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "lea",
+                            "name": "Leather Armor"
+                        },
+                        {
+                            "id": "xea",
+                            "name": "Serpentskin"
+                        },
+                        {
+                            "id": "uea",
+                            "name": "Wyrmhide"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "hla",
+                            "name": "Hard Leather"
+                        },
+                        {
+                            "id": "xla",
+                            "name": "Demonhide Armor"
+                        },
+                        {
+                            "id": "ula",
+                            "name": "Scarab Husk"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "stu",
+                            "name": "Studded Leather"
+                        },
+                        {
+                            "id": "xtu",
+                            "name": "Trellised Armor"
+                        },
+                        {
+                            "id": "utu",
+                            "name": "Wire Fleece"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "rng",
+                            "name": "Ring Mail"
+                        },
+                        {
+                            "id": "xng",
+                            "name": "Linked Mail"
+                        },
+                        {
+                            "id": "ung",
+                            "name": "Diamond Mail"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "scl",
+                            "name": "Scale Mail"
+                        },
+                        {
+                            "id": "xcl",
+                            "name": "Tigulated Mail"
+                        },
+                        {
+                            "id": "ucl",
+                            "name": "Loricated Mail"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "chn",
+                            "name": "Chain Mail"
+                        },
+                        {
+                            "id": "xhn",
+                            "name": "Mesh Armor"
+                        },
+                        {
+                            "id": "uhn",
+                            "name": "Boneweave"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "brs",
+                            "name": "Breast Plate"
+                        },
+                        {
+                            "id": "xrs",
+                            "name": "Cuirass"
+                        },
+                        {
+                            "id": "urs",
+                            "name": "Great Hauberk"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "spl",
+                            "name": "Splint Mail"
+                        },
+                        {
+                            "id": "xpl",
+                            "name": "Russet Armor"
+                        },
+                        {
+                            "id": "upl",
+                            "name": "Balrog Skin"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "plt",
+                            "name": "Plate Mail"
+                        },
+                        {
+                            "id": "xlt",
+                            "name": "Templar Coat"
+                        },
+                        {
+                            "id": "ult",
+                            "name": "Hellforge Plate"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "fld",
+                            "name": "Field Plate"
+                        },
+                        {
+                            "id": "xld",
+                            "name": "Sharktooth"
+                        },
+                        {
+                            "id": "uld",
+                            "name": "Kraken Shell"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "gth",
+                            "name": "Gothic Plate"
+                        },
+                        {
+                            "id": "xth",
+                            "name": "Embossed Plate"
+                        },
+                        {
+                            "id": "uth",
+                            "name": "Lacquered Plate"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ful",
+                            "name": "Full Plate Mail"
+                        },
+                        {
+                            "id": "xul",
+                            "name": "Chaos Armor"
+                        },
+                        {
+                            "id": "uul",
+                            "name": "Shadow Plate"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "aar",
+                            "name": "Ancient Armor"
+                        },
+                        {
+                            "id": "xar",
+                            "name": "Ornate Armor"
+                        },
+                        {
+                            "id": "uar",
+                            "name": "Sacred Armor"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ltp",
+                            "name": "Light Plate"
+                        },
+                        {
+                            "id": "xtp",
+                            "name": "Mage Plate"
+                        },
+                        {
+                            "id": "utp",
+                            "name": "Archon Plate"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["EQ3"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "buc",
+                            "name": "Buckler"
+                        },
+                        {
+                            "id": "xuc",
+                            "name": "Defender"
+                        },
+                        {
+                            "id": "uuc",
+                            "name": "Heater"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "sml",
+                            "name": "Small Shield"
+                        },
+                        {
+                            "id": "xml",
+                            "name": "Round Shield"
+                        },
+                        {
+                            "id": "uml",
+                            "name": "Luna"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "lrg",
+                            "name": "Large Shield"
+                        },
+                        {
+                            "id": "xrg",
+                            "name": "Scutum"
+                        },
+                        {
+                            "id": "urg",
+                            "name": "Hyperion"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "kit",
+                            "name": "Kite Shield"
+                        },
+                        {
+                            "id": "xit",
+                            "name": "Dragon Shield"
+                        },
+                        {
+                            "id": "uit",
+                            "name": "Monarch"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "tow",
+                            "name": "Tower Shield"
+                        },
+                        {
+                            "id": "xow",
+                            "name": "Pavise"
+                        },
+                        {
+                            "id": "uow",
+                            "name": "Aegis"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "gts",
+                            "name": "Gothic Shield"
+                        },
+                        {
+                            "id": "xts",
+                            "name": "Ancient Shield"
+                        },
+                        {
+                            "id": "uts",
+                            "name": "Ward"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "bsh",
+                            "name": "Bone Shield"
+                        },
+                        {
+                            "id": "xsh",
+                            "name": "Grim Shield"
+                        },
+                        {
+                            "id": "ush",
+                            "name": "Troll Nest"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "spk",
+                            "name": "Spiked Shield"
+                        },
+                        {
+                            "id": "xpk",
+                            "name": "Barbed Shield"
+                        },
+                        {
+                            "id": "upk",
+                            "name": "Blade Barrier"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["EQ4"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "lgl",
+                            "name": "Leather Gloves"
+                        },
+                        {
+                            "id": "xlg",
+                            "name": "Demonhide Glove"
+                        },
+                        {
+                            "id": "ulg",
+                            "name": "Bramble Mitts"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "vgl",
+                            "name": "Heavy Gloves"
+                        },
+                        {
+                            "id": "xvg",
+                            "name": "Sharkskin Glove"
+                        },
+                        {
+                            "id": "uvg",
+                            "name": "Vampirebone Gl"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "mgl",
+                            "name": "Chain Gloves"
+                        },
+                        {
+                            "id": "xmg",
+                            "name": "Heavy Bracers"
+                        },
+                        {
+                            "id": "umg",
+                            "name": "Vambraces"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "tgl",
+                            "name": "Light Gauntlets"
+                        },
+                        {
+                            "id": "xtg",
+                            "name": "Battle Gauntlet"
+                        },
+                        {
+                            "id": "utg",
+                            "name": "Crusader Gaunt"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "hgl",
+                            "name": "Gauntlets"
+                        },
+                        {
+                            "id": "xhg",
+                            "name": "War Gauntlets"
+                        },
+                        {
+                            "id": "uhg",
+                            "name": "Ogre Gauntlets"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["EQ5"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "lbt",
+                            "name": "Boots"
+                        },
+                        {
+                            "id": "xlb",
+                            "name": "Demonhide Boots"
+                        },
+                        {
+                            "id": "ulb",
+                            "name": "Wyrmhide Boots"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "vbt",
+                            "name": "Heavy Boots"
+                        },
+                        {
+                            "id": "xvb",
+                            "name": "Sharkskin Boots"
+                        },
+                        {
+                            "id": "uvb",
+                            "name": "Scarabshell Bts"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "mbt",
+                            "name": "Chain Boots"
+                        },
+                        {
+                            "id": "xmb",
+                            "name": "Mesh Boots"
+                        },
+                        {
+                            "id": "umb",
+                            "name": "Boneweave Boots"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "tbt",
+                            "name": "Light Plate"
+                        },
+                        {
+                            "id": "xtb",
+                            "name": "Battle Boots"
+                        },
+                        {
+                            "id": "utb",
+                            "name": "Mirrored Boots"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "hbt",
+                            "name": "Greaves"
+                        },
+                        {
+                            "id": "xhb",
+                            "name": "War Boots"
+                        },
+                        {
+                            "id": "uhb",
+                            "name": "Myrmidon Greave"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["EQ6"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "lbl",
+                            "name": "Sash"
+                        },
+                        {
+                            "id": "zlb",
+                            "name": "Demonhide Sash"
+                        },
+                        {
+                            "id": "ulc",
+                            "name": "Spiderweb Sash"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "vbl",
+                            "name": "Light Belt"
+                        },
+                        {
+                            "id": "zvb",
+                            "name": "Sharkskin Belt"
+                        },
+                        {
+                            "id": "uvc",
+                            "name": "Vampirefang Blt"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "mbl",
+                            "name": "Belt"
+                        },
+                        {
+                            "id": "zmb",
+                            "name": "Mesh Belt"
+                        },
+                        {
+                            "id": "umc",
+                            "name": "Mithril Coil"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "tbl",
+                            "name": "Heavy Belt"
+                        },
+                        {
+                            "id": "ztb",
+                            "name": "Battle Belt"
+                        },
+                        {
+                            "id": "utc",
+                            "name": "Troll Belt"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "hbl",
+                            "name": "Plated Belt"
+                        },
+                        {
+                            "id": "zhb",
+                            "name": "War Belt"
+                        },
+                        {
+                            "id": "uhc",
+                            "name": "Colossus Girdle"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["EQ7"],
+            "data": [
+                {
+                    "id": "ci0",
+                    "name": "Circlet"
+                },
+                {
+                    "id": "ci1",
+                    "name": "Coronet"
+                },
+                {
+                    "id": "ci2",
+                    "name": "Tiara"
+                },
+                {
+                    "id": "ci3",
+                    "name": "Diadem"
+                }
+            ]
+        },
+        {
+            "tags": ["EQ1", "CL1"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "dr1",
+                            "name": "Wolf Head"
+                        },
+                        {
+                            "id": "dr6",
+                            "name": "Alpha Helm"
+                        },
+                        {
+                            "id": "drb",
+                            "name": "Blood Spirit"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "dr2",
+                            "name": "Hawk Helm"
+                        },
+                        {
+                            "id": "dr7",
+                            "name": "Griffon Headress"
+                        },
+                        {
+                            "id": "drc",
+                            "name": "Sun Spirit"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "dr3",
+                            "name": "Antlers"
+                        },
+                        {
+                            "id": "dr8",
+                            "name": "Hunter’s Guise"
+                        },
+                        {
+                            "id": "drd",
+                            "name": "Earth Spirit"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "dr4",
+                            "name": "Falcon Mask"
+                        },
+                        {
+                            "id": "dr9",
+                            "name": "Sacred Feathers"
+                        },
+                        {
+                            "id": "dre",
+                            "name": "Sky Spirit"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "dr5",
+                            "name": "Spirit Mask"
+                        },
+                        {
+                            "id": "dra",
+                            "name": "Totemic Mask"
+                        },
+                        {
+                            "id": "drf",
+                            "name": "Dream Spirit"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["EQ1", "CL2"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "ba1",
+                            "name": "Jawbone Cap"
+                        },
+                        {
+                            "id": "ba6",
+                            "name": "Jawbone Visor"
+                        },
+                        {
+                            "id": "bab",
+                            "name": "Carnage Helm"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ba2",
+                            "name": "Fanged Helm"
+                        },
+                        {
+                            "id": "ba7",
+                            "name": "Lion Helm"
+                        },
+                        {
+                            "id": "bac",
+                            "name": "Fury Visor"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ba3",
+                            "name": "Horned Helm"
+                        },
+                        {
+                            "id": "ba8",
+                            "name": "Rage Mask"
+                        },
+                        {
+                            "id": "bad",
+                            "name": "Destroyer Helm"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ba4",
+                            "name": "Assualt Helmet"
+                        },
+                        {
+                            "id": "ba9",
+                            "name": "Savage Helmet"
+                        },
+                        {
+                            "id": "bae",
+                            "name": "Conqueror Crown"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ba5",
+                            "name": "Avenger Guard"
+                        },
+                        {
+                            "id": "baa",
+                            "name": "Slayer Guard"
+                        },
+                        {
+                            "id": "baf",
+                            "name": "Guardian Crown"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["EQ1", "CL3"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "pa1",
+                            "name": "Targe"
+                        },
+                        {
+                            "id": "pa6",
+                            "name": "Akaran Targe"
+                        },
+                        {
+                            "id": "pab",
+                            "name": "Sacred Targe"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "pa2",
+                            "name": "Rondache"
+                        },
+                        {
+                            "id": "pa7",
+                            "name": "Akaran Rondache"
+                        },
+                        {
+                            "id": "pac",
+                            "name": "Sacred Rondache"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "pa3",
+                            "name": "Heraldic Shield"
+                        },
+                        {
+                            "id": "pa8",
+                            "name": "Protector Shld"
+                        },
+                        {
+                            "id": "pad",
+                            "name": "Kurast Shield"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "pa4",
+                            "name": "Aerin Shield"
+                        },
+                        {
+                            "id": "pa9",
+                            "name": "Guilded Shield"
+                        },
+                        {
+                            "id": "pae",
+                            "name": "Zakarum Shield"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "pa5",
+                            "name": "Crown Shield"
+                        },
+                        {
+                            "id": "paa",
+                            "name": "Royal Shield"
+                        },
+                        {
+                            "id": "paf",
+                            "name": "Vortex Shield"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tags": ["CL4"],
+            "data": [
+                {
+                    "data": [
+                        {
+                            "id": "ne1",
+                            "name": "Preserved Head"
+                        },
+                        {
+                            "id": "ne6",
+                            "name": "Mummified Trphy"
+                        },
+                        {
+                            "id": "neb",
+                            "name": "Minion Skull"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ne2",
+                            "name": "Zombie Head"
+                        },
+                        {
+                            "id": "ne7",
+                            "name": "Fetish Trophy"
+                        },
+                        {
+                            "id": "nec",
+                            "name": "Hellspawn Skull"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ne3",
+                            "name": "Unraveller Head"
+                        },
+                        {
+                            "id": "ne8",
+                            "name": "Sexton Trophy"
+                        },
+                        {
+                            "id": "ned",
+                            "name": "Overseer Skull"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ne4",
+                            "name": "Gargoyle Head"
+                        },
+                        {
+                            "id": "ne9",
+                            "name": "Cantor Trophy"
+                        },
+                        {
+                            "id": "nee",
+                            "name": "Succubae Skull"
+                        }
+                    ]
+                },
+                {
+                    "data": [
+                        {
+                            "id": "ne5",
+                            "name": "Demon Head"
+                        },
+                        {
+                            "id": "nea",
+                            "name": "Heirophant Trphy"
+                        },
+                        {
+                            "id": "nef",
+                            "name": "Bloodlord Skull"
                         }
                     ]
                 }

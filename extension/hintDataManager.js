@@ -19,7 +19,8 @@ const KEYWORDS_ACTION_DATA_FILES = [
 const KEYWORDS_CONDITION = 1;
 const KEYWORDS_ACTION = 2;
 
-const TIERED_ITEMS = ["ARMOR", "WEAPON", "CL1", "CL2", "CL3", "CL4", "CL5", "CL6", "CL7"];
+const TIERED_ITEMS = ["ARMOR", "WEAPON"];
+const TIERED_ITEMS_EXCLUDE = ["EQ7"]; // Circlets
 
 const ITEM_TIERS = {
     1: "Normal",
@@ -100,7 +101,7 @@ function processItems(items, parentItem, context) {
         }
         // recursive call with updated context
         if (item.data !== undefined) {
-            processItems(item.data, item, item.id !== undefined ? [].concat(context, [item.id]) : context);
+            processItems(item.data, item, item.tags !== undefined ? [].concat(context, item.tags) : context);
         }
     });
 }
@@ -131,14 +132,14 @@ function getItemMdDescription(item, itemTier, parentItem, context) {
     let hoverContent = item.name !== undefined ? `**${item.name} (_${item.id}_)**` : `**${item.id}**`;
     hoverContent += "\n\n";
     // tiered equipment (armor/weapon)
-    if (context.filter(value => TIERED_ITEMS.includes(value)).length > 0) {
+    if (isItemTiered(context)) {
         hoverContent += "* `Tier` - " + ITEM_TIERS[itemTier] + "  \n";
     }
     if (context.length > 0) {
         const contextNames = context.map(value => {
             return keywordNames[value] !== undefined ? keywordNames[value] : value;
         });
-        hoverContent += "* `Category` - " + contextNames.join(", ") + "  \n";
+        hoverContent += "* `Tags` - " + contextNames.join(", ") + "  \n";
     }
     
     let relatedContent = [];
@@ -155,6 +156,18 @@ function getItemMdDescription(item, itemTier, parentItem, context) {
     }
 
     return new vscode.MarkdownString(hoverContent);
+}
+
+/**
+ * Resolves whether the item has tiers or not
+ * @param {string[]} context 
+ */
+function isItemTiered(context) {
+    const excluded = context.filter(value => TIERED_ITEMS_EXCLUDE.includes(value)).length > 0;
+    if (excluded) {
+        return false;
+    }
+    return context.filter(value => TIERED_ITEMS.includes(value)).length > 0;
 }
 
 //#endregion

@@ -1,3 +1,68 @@
 {
-    
+    "data": [
+        {
+            "data": [
+                {
+                    "id": "aq2",
+                    "name": "PoD Arrows"
+                },
+                {
+                    "id": "cq2",
+                    "name": "PoD Bolts"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "id": "cx5",
+                    "name": "Orb of Corruption"
+                },
+                {
+                    "id": "cx6",
+                    "name": "Diablo's Soulstone"
+                },
+                {
+                    "id": "cx7",
+                    "name": "Key of Chaos"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "id": "ma1",
+                    "name": "Icy Cavern Relic"
+                },
+                {
+                    "id": "ma2",
+                    "name": "Forgotten Desert Relic"
+                },
+                {
+                    "id": "ma4",
+                    "name": "Desecrated Temple Relic"
+                },
+                {
+                    "id": "ma5",
+                    "name": "Frigid Plateau Relic"
+                },
+                {
+                    "id": "ma6",
+                    "name": "Ruined Citadel Relic"
+                },
+                {
+                    "id": "ma7",
+                    "name": "Burnt Forest Relic"
+                },
+                {
+                    "id": "ma8",
+                    "name": "Musty Crypt Relic"
+                },
+                {
+                    "id": "ma9",
+                    "name": "Dim Cellar Relic"
+                }
+            ]
+        }
+    ]
 }

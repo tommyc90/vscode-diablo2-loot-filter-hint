@@ -1,0 +1,72 @@
+{
+    "data": [
+        {
+            "id": "tch",
+            "name": "Torch"
+        },
+        {
+            "id": "hrt",
+            "name": "Heart"
+        },
+        {
+            "id": "brz",
+            "name": "Brain"
+        },
+        {
+            "id": "jaw",
+            "name": "Jawbone"
+        },
+        {
+            "id": "eyz",
+            "name": "Eye"
+        },
+        {
+            "id": "hrn",
+            "name": "Horn"
+        },
+        {
+            "id": "hrb",
+            "name": "Herb"
+        },
+        {
+            "id": "tal",
+            "name": "Tail"
+        },
+        {
+            "id": "flg",
+            "name": "Flag"
+        },
+        {
+            "id": "fng",
+            "name": "Fang"
+        },
+        {
+            "id": "qll",
+            "name": "Quill"
+        },
+        {
+            "id": "sol",
+            "name": "Soul"
+        },
+        {
+            "id": "scz",
+            "name": "Scalp"
+        },
+        {
+            "id": "spe",
+            "name": "Spleen"
+        },
+        {
+            "id": "luv",
+            "name": "The Black Tower Key"
+        },
+        {
+            "id": "elx",
+            "name": "Elixir"
+        },
+        {
+            "id": "0sc",
+            "name": "Scroll of Knowledge"
+        }
+    ]
+}
