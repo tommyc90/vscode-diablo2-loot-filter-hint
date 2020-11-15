@@ -3,8 +3,8 @@
 This is a visual studio code extension that provides markup and basic hints for the Diablo 2 LoD BH Maphack based `.filter` language.
 
 Currentlly supports these derivations:
-* Path of Diablo
-* Project Diablo 2
+* Path of Diablo (Zincite)
+* Project Diablo 2 (Awakening)
 
 ## Installation
 0. Install [Visual Studio Code](https://code.visualstudio.com/).
