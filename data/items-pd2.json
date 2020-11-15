@@ -39,6 +39,26 @@
         {
             "data": [
                 {
+                    "id": "dcma",
+                    "name": "Vision of Terror"
+                },
+                {
+                    "id": "dcbl",
+                    "name": "Pure Demonic Essence"
+                },
+                {
+                    "id": "dcho",
+                    "name": "Black Soulstone"
+                },
+                {
+                    "id": "dcso",
+                    "name": "Prime Evil Soul"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
                     "id": "t11",
                     "name": "PD2 Map"
                 },
