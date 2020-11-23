@@ -3,6 +3,286 @@
         {
             "data": [
                 {
+                    "id": "gcvs",
+                    "name": "Chipped Amethyst Stack"
+                },
+                {
+                    "id": "gcws",
+                    "name": "Chipped Diamond Stack"
+                },
+                {
+                    "id": "gcgs",
+                    "name": "Chipped Emerald Stack"
+                },
+                {
+                    "id": "gcrs",
+                    "name": "Chipped Ruby Stack"
+                },
+                {
+                    "id": "gcbs",
+                    "name": "Chipped Saphire Stack"
+                },
+                {
+                    "id": "skcs",
+                    "name": "Chipped Skull Stack"
+                },
+                {
+                    "id": "gcys",
+                    "name": "Chipped Topaz Stack"
+                },
+                {
+                    "id": "gfvs",
+                    "name": "Flawed Amethyst Stack"
+                },
+                {
+                    "id": "gfws",
+                    "name": "Flawed Diamond Stack"
+                },
+                {
+                    "id": "gfgs",
+                    "name": "Flawed Emerald Stack"
+                },
+                {
+                    "id": "gfrs",
+                    "name": "Flawed Ruby Stack"
+                },
+                {
+                    "id": "gfbs",
+                    "name": "Flawed Saphire Stack"
+                },
+                {
+                    "id": "skfs",
+                    "name": "Flawed Skull Stack"
+                },
+                {
+                    "id": "gfys",
+                    "name": "Flawed Topaz Stack"
+                },
+                {
+                    "id": "gsvs",
+                    "name": "Amethyst Stack"
+                },
+                {
+                    "id": "gsws",
+                    "name": "Diamond Stack"
+                },
+                {
+                    "id": "gsgs",
+                    "name": "Emerald Stack"
+                },
+                {
+                    "id": "gsrs",
+                    "name": "Ruby Stack"
+                },
+                {
+                    "id": "gsbs",
+                    "name": "Saphire Stack"
+                },
+                {
+                    "id": "skus",
+                    "name": "Skull Stack"
+                },
+                {
+                    "id": "gsys",
+                    "name": "Topaz Stack"
+                },
+                {
+                    "id": "gzvs",
+                    "name": "Flawless Amethyst Stack"
+                },
+                {
+                    "id": "glws",
+                    "name": "Flawless Diamond Stack"
+                },
+                {
+                    "id": "glgs",
+                    "name": "Flawless Emerald Stack"
+                },
+                {
+                    "id": "glrs",
+                    "name": "Flawless Ruby Stack"
+                },
+                {
+                    "id": "glbs",
+                    "name": "Flawless Saphire Stack"
+                },
+                {
+                    "id": "skls",
+                    "name": "Flawless Skull Stack"
+                },
+                {
+                    "id": "glys",
+                    "name": "Flawless Topaz Stack"
+                },
+                {
+                    "id": "gpws",
+                    "name": "Perfect Diamond Stack"
+                },
+                {
+                    "id": "gpvs",
+                    "name": "Perfect Amethyst Stack"
+                },
+                {
+                    "id": "gpbs",
+                    "name": "Perfect Sapphire Stack"
+                },
+                {
+                    "id": "gpys",
+                    "name": "Perfect Topaz Stack"
+                },
+                {
+                    "id": "gprs",
+                    "name": "Perfect Ruby Stack"
+                },
+                {
+                    "id": "skzs",
+                    "name": "Perfect Skull Stack"
+                },
+                {
+                    "id": "gpgs",
+                    "name": "Perfect Emerald Stack"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
+                    "id": "r01s",
+                    "name": "El Rune Stack"
+                },
+                {
+                    "id": "r02s",
+                    "name": "Eld Rune Stack"
+                },
+                {
+                    "id": "r03s",
+                    "name": "Tir Rune Stack"
+                },
+                {
+                    "id": "r04s",
+                    "name": "Nef Rune Stack"
+                },
+                {
+                    "id": "r05s",
+                    "name": "Eth Rune Stack"
+                },
+                {
+                    "id": "r06s",
+                    "name": "Ith Rune Stack"
+                },
+                {
+                    "id": "r07s",
+                    "name": "Tal Rune Stack"
+                },
+                {
+                    "id": "r08s",
+                    "name": "Ral Rune Stack"
+                },
+                {
+                    "id": "r09s",
+                    "name": "Ort Rune Stack"
+                },
+                {
+                    "id": "r10s",
+                    "name": "Thul Rune Stack"
+                },
+                {
+                    "id": "r11s",
+                    "name": "Amn Rune Stack"
+                },
+                {
+                    "id": "r12s",
+                    "name": "Sol Rune Stack"
+                },
+                {
+                    "id": "r13s",
+                    "name": "Shael Rune Stack"
+                },
+                {
+                    "id": "r14s",
+                    "name": "Dol Rune Stack"
+                },
+                {
+                    "id": "r15s",
+                    "name": "Hel Rune Stack"
+                },
+                {
+                    "id": "r16s",
+                    "name": "Io Rune Stack"
+                },
+                {
+                    "id": "r17s",
+                    "name": "Lum Rune Stack"
+                },
+                {
+                    "id": "r18s",
+                    "name": "Ko Rune Stack"
+                },
+                {
+                    "id": "r19s",
+                    "name": "Fal Rune Stack"
+                },
+                {
+                    "id": "r20s",
+                    "name": "Lem Rune Stack"
+                },
+                {
+                    "id": "r21s",
+                    "name": "Pul Rune Stack"
+                },
+                {
+                    "id": "r22s",
+                    "name": "Um Rune Stack"
+                },
+                {
+                    "id": "r23s",
+                    "name": "Mal Rune Stack"
+                },
+                {
+                    "id": "r24s",
+                    "name": "Ist Rune Stack"
+                },
+                {
+                    "id": "r25s",
+                    "name": "Gul Rune Stack"
+                },
+                {
+                    "id": "r26s",
+                    "name": "Vex Rune Stack"
+                },
+                {
+                    "id": "r27s",
+                    "name": "Ohm Rune Stack"
+                },
+                {
+                    "id": "r28s",
+                    "name": "Lo Rune Stack"
+                },
+                {
+                    "id": "r29s",
+                    "name": "Sur Rune Stack"
+                },
+                {
+                    "id": "r30s",
+                    "name": "Ber Rune Stack"
+                },
+                {
+                    "id": "r31s",
+                    "name": "Jah Rune Stack"
+                },
+                {
+                    "id": "r32s",
+                    "name": "Cham Rune Stack"
+                },
+                {
+                    "id": "r33s",
+                    "name": "Zod Rune Stack"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
                     "id": "wss",
                     "name": "Worldstone Shard"
                 },
@@ -88,7 +368,7 @@
                 },
                 {
                     "id": "t18",
-                    "name": "Lava Map"
+                    "name": "Phlegethon Map"
                 }
             ]
         }

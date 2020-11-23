@@ -1,8 +1,8 @@
 {
     "name": "diablo2-loot-filter-hint",
     "displayName": "Diablo 2 Loot Filter Hints",
-    "description": "Diablo 2 LoD loot filter langauge (based on BH Maphack) and hints extension by tmcerny",
-    "version": "1.1.0",
+    "description": "Diablo 2 LoD loot filter langauge (based on BH Maphack) and hints extension",
+    "version": "1.2.0",
     "license": "GPL-3.0",
     "publisher": "tommyc90",
     "author": "tommyc90",
