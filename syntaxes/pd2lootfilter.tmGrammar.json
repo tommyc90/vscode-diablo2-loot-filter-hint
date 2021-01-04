@@ -72,7 +72,7 @@
         "action-keyword":{
             "patterns": [{
                 "name": "entity.name.function",
-                "match": "%(DARK_GREEN|GOLD|TAN|BLUE|GRAY|WHITE|BLACK|YELLOW|ORANGE|PURPLE|RED)%"
+                "match": "%(DARK_GREEN|GREEN|GOLD|TAN|BLUE|GRAY|WHITE|BLACK|YELLOW|ORANGE|PURPLE|RED)%"
             }, {
                 "name": "variable",
                 "match": "%(PRICE|ILVL|SOCKETS|CODE|NAME|GEMTYPE|GEMLEVEL|RUNENAME|RUNENUM|QTY|ALVL|CLVL|RANGE|WPNSPD)%"
