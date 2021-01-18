@@ -228,7 +228,7 @@
                             "name": "Jagged Star"
                         },
                         {
-                            "id": "7mf",
+                            "id": "7mt",
                             "name": "Devil Star"
                         }
                     ]
@@ -1177,7 +1177,7 @@
                 {
                     "data": [
                         {
-                            "id": "gst",
+                            "id": "cst",
                             "name": "Gnarled Staff"
                         },
                         {
@@ -1436,11 +1436,11 @@
                             "name": "Blade Talons"
                         },
                         {
-                            "id": "9hw",
+                            "id": "9tw",
                             "name": "Greater Talons"
                         },
                         {
-                            "id": "7hw",
+                            "id": "7tw",
                             "name": "Runic Talons"
                         }
                     ]
