@@ -3,6 +3,80 @@
         {
             "id": "DGREEN",
             "name": "Dark Green color"
+        },
+
+
+
+        {
+            "id": "MAP",
+            "name": "Map notification setting"
+        },
+        {
+            "id": "MAP-0F",
+            "name": "Map notification setting (00-FF)"
+        },
+        {
+            "id": "DOT-0F",
+            "name": "Map notification setting (00-FF)"
+        },
+        {
+            "id": "PX-0F",
+            "name": "Map notification setting (00-FF)"
+        },
+        {
+            "id": "BORDER-0F",
+            "name": "Map notification setting (00-FF)"
+        },
+
+
+
+        {
+            "id": "NOTIFY-GREEN",
+            "name": "Map notification setting"
+        },
+        {
+            "id": "NOTIFY-DARK_GREEN",
+            "name": "Map notification setting"
+        },
+        {
+            "id": "NOTIFY-GOLD",
+            "name": "Map notification setting"
+        },
+        {
+            "id": "NOTIFY-TAN",
+            "name": "Map notification setting"
+        },
+        {
+            "id": "NOTIFY-BLUE",
+            "name": "Map notification setting"
+        },
+        {
+            "id": "NOTIFY-GRAY",
+            "name": "Map notification setting"
+        },
+        {
+            "id": "NOTIFY-WHITE",
+            "name": "Map notification setting"
+        },
+        {
+            "id": "NOTIFY-BLACK",
+            "name": "Map notification setting"
+        },
+        {
+            "id": "NOTIFY-YELLOW",
+            "name": "Map notification setting"
+        },
+        {
+            "id": "NOTIFY-ORANGE",
+            "name": "Map notification setting"
+        },
+        {
+            "id": "NOTIFY-PURPLE",
+            "name": "Map notification setting"
+        },
+        {
+            "id": "NOTIFY-RED",
+            "name": "Map notification setting"
         }
     ]
 }

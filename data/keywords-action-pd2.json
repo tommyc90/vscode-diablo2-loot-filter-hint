@@ -31,27 +31,47 @@
 
 
         {
-            "id": "NL",
-            "name": "New line"
-        },
-
-
-
-        {
             "id": "MAP",
-            "name": "Map icon setting"
+            "name": "Map notification setting"
+        },
+        {
+            "id": "MAP-0F",
+            "name": "Map notification setting (00-FF)"
         },
         {
             "id": "DOT",
-            "name": "Map icon setting"
+            "name": "Map notification setting"
+        },
+        {
+            "id": "DOT-0F",
+            "name": "Map notification setting (00-FF)"
         },
         {
             "id": "PX",
-            "name": "Map icon setting"
+            "name": "Map notification setting"
+        },
+        {
+            "id": "PX-0F",
+            "name": "Map notification setting (00-FF)"
         },
         {
             "id": "BORDER",
-            "name": "Map icon setting"
+            "name": "Map notification setting"
+        },
+        {
+            "id": "BORDER-0F",
+            "name": "Map notification setting (00-FF)"
+        },
+
+
+
+        {
+            "id": "NOTIFY-0",
+            "name": "Map notification setting (0-F)"
+        },
+        {
+            "id": "NOTIFY-DEAD",
+            "name": "Map notification setting"
         }
     ]
 }

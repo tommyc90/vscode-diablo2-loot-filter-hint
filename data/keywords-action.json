@@ -86,6 +86,13 @@
         {
             "id": "CONTINUE",
             "name": "Continue processing loot filter even after condition match"
+        },
+
+
+
+        {
+            "id": "NL",
+            "name": "New line"
         }
     ]
 }

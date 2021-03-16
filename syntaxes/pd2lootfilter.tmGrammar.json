@@ -81,7 +81,10 @@
                 "match": "%(CONTINUE|NL)%"
             }, {
                 "name": "entity.name.type.enum",
-                "match": "%(MAP(-[0-9A-Z]{2})?|DOT(-[0-9A-Z]{2})?|PX(-[0-9A-Z]{2})?|BORDER(-[0-9A-Z]{2})?)%"
+                "match": "%(MAP(-[0-9A-F]{2})?|DOT(-[0-9A-F]{2})?|PX(-[0-9A-F]{2})?|BORDER(-[0-9A-F]{2})?)%"
+            }, {
+                "name": "entity.name.type.enum",
+                "match": "%NOTIFY-([0-9A-F]|DEAD)%"
             }]
         },
         "action-string":{

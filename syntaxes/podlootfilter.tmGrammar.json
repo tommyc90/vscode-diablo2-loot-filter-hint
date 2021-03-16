@@ -69,13 +69,19 @@
         "action-keyword":{
             "patterns": [{
                 "name": "entity.name.function",
-                "match": "%(D?GREEN|GOLD|TAN|BLUE|GRAY|WHITE|BLACK|YELLOW|ORANGE|PURPLE|RED)%"
+                "match": "%(DARK_GREEN|D?GREEN|GOLD|TAN|BLUE|GRAY|WHITE|BLACK|YELLOW|ORANGE|PURPLE|RED)%"
             }, {
                 "name": "variable",
                 "match": "%(PRICE|ILVL|SOCKETS|CODE|NAME|GEMTYPE|GEMLEVEL|RUNENAME|RUNENUM)%"
             }, {
                 "name": "keyword.control",
-                "match": "%(CONTINUE)%"
+                "match": "%(CONTINUE|NL)%"
+            }, {
+                "name": "entity.name.type.enum",
+                "match": "%(MAP(-[0-9A-F]{2})?|DOT(-[0-9A-F]{2})|PX(-[0-9A-F]{2})|BORDER(-[0-9A-F]{2}))%"
+            }, {
+                "name": "entity.name.type.enum",
+                "match": "%NOTIFY-(GREEN|DARK_GREEN|GOLD|TAN|BLUE|GRAY|WHITE|BLACK|YELLOW|ORANGE|PURPLE|RED)%"
             }]
         },
         "action-string":{
