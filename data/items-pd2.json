@@ -313,6 +313,14 @@
                 {
                     "id": "upma",
                     "name": "Angelic Orb"
+                },
+                {
+                    "id": "upmp",
+                    "name": "Cartographer's Orb"
+                },
+                {
+                    "id": "scrb",
+                    "name": "Horadrim Scarab"
                 }
             ]
         },
@@ -340,35 +348,63 @@
             "data": [
                 {
                     "id": "t11",
-                    "name": "PD2 Map"
-                },
-                {
-                    "id": "t12",
-                    "name": "PD2 Map"
-                },
-                {
-                    "id": "t13",
-                    "name": "PD2 Map"
-                },
-                {
-                    "id": "t14",
-                    "name": "PD2 Map"
-                },
-                {
-                    "id": "t15",
-                    "name": "PD2 Map"
-                },
-                {
-                    "id": "t16",
                     "name": "Ruins of Viz-Jun Map"
                 },
                 {
-                    "id": "t17",
+                    "id": "t12",
+                    "name": "Horazon's Memory Map"
+                },
+                {
+                    "id": "t13",
+                    "name": "Bastion Keep Map"
+                },
+                {
+                    "id": "t21",
+                    "name": "Phlegethon Map"
+                },
+                {
+                    "id": "t22",
+                    "name": "Torajan Jungle Map"
+                },
+                {
+                    "id": "t23",
+                    "name": "Arreat Battlefield Map"
+                },
+                {
+                    "id": "t24",
+                    "name": "Blood Moon Map"
+                },
+                {
+                    "id": "t31",
                     "name": "River of Blood Map"
                 },
                 {
-                    "id": "t18",
-                    "name": "Phlegethon Map"
+                    "id": "t32",
+                    "name": "Throne of Insanity Map"
+                },
+                {
+                    "id": "t33",
+                    "name": "Sewers of Harrogath Map"
+                },
+                {
+                    "id": "t34",
+                    "name": "Ancestral Trial Map"
+                },
+                {
+                    "id": "t35",
+                    "name": "Cathedral of Light Map"
+                },
+                {
+                    "id": "t36",
+                    "name": "Tomb of Zultan Kulle Map"
+                },
+                {
+                    "id": "t41",
+                    "name": "Plains of Torment Map"
+                },
+                {
+                    "id": "t42",
+                    "name": "Desert Map"
                 }
             ]
         }
