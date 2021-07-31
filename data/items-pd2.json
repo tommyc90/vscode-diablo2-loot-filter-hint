@@ -341,6 +341,10 @@
                 {
                     "id": "dcso",
                     "name": "Prime Evil Soul"
+                },
+                {
+                    "id": "ubtm",
+                    "name": "Pandemonium Talisman"
                 }
             ]
         },
@@ -372,7 +376,11 @@
                 },
                 {
                     "id": "t24",
-                    "name": "Blood Moon Map"
+                    "name": "Tomb of Zultan Kulle Map"
+                },
+                {
+                    "id": "t25",
+                    "name": "Sewers of Harrogath Map"
                 },
                 {
                     "id": "t31",
@@ -384,7 +392,7 @@
                 },
                 {
                     "id": "t33",
-                    "name": "Sewers of Harrogath Map"
+                    "name": "Reziarfg's Lair Map"
                 },
                 {
                     "id": "t34",
@@ -392,19 +400,19 @@
                 },
                 {
                     "id": "t35",
-                    "name": "Cathedral of Light Map"
+                    "name": "Blood Moon Map"
                 },
                 {
                     "id": "t36",
-                    "name": "Tomb of Zultan Kulle Map"
+                    "name": "Fall of Caldeum Map"
+                },
+                {
+                    "id": "t37",
+                    "name": "Pandemonium Citadel Map"
                 },
                 {
                     "id": "t41",
-                    "name": "Plains of Torment Map"
-                },
-                {
-                    "id": "t42",
-                    "name": "Desert Map"
+                    "name": "Cathedral of Light"
                 }
             ]
         }
