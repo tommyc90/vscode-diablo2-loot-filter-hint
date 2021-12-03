@@ -4,7 +4,7 @@ This is a visual studio code extension that provides markup and basic hints for 
 
 Currentlly supports these derivations:
 * Path of Diablo (Perlite)
-* Project Diablo 2 (Domination)
+* Project Diablo 2 (Enlightenment)
 
 ## Installation
 0. Install [Visual Studio Code](https://code.visualstudio.com/).

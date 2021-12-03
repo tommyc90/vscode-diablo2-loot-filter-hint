@@ -283,8 +283,20 @@
         {
             "data": [
                 {
+                    "id": "jewf",
+                    "name": "Jewel Fragments"
+                }
+            ]
+        },
+        {
+            "data": [
+                {
                     "id": "wss",
                     "name": "Worldstone Shard"
+                },
+                {
+                    "id": "cwss",
+                    "name": "Tainted Worldstone Shard"
                 },
                 {
                     "id": "lbox",
@@ -411,8 +423,24 @@
                     "name": "Pandemonium Citadel Map"
                 },
                 {
+                    "id": "t38",
+                    "name": "Canyon of Sescheron Map"
+                },
+                {
+                    "id": "t39",
+                    "name": "Kehjistan Marketplace Map"
+                },
+                {
                     "id": "t41",
                     "name": "Cathedral of Light"
+                },
+                {
+                    "id": "t61",
+                    "name": "Desert Duel Arena"
+                },
+                {
+                    "id": "t62",
+                    "name": "Moor Duel Arena"
                 }
             ]
         }
